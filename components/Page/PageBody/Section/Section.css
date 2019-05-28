@@ -1,0 +1,17 @@
+
+#section-container{
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#section-header{
+  color: #374457;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+
+#subsection-container{
+  display: block;
+  font-size: 1.1em;
+}
