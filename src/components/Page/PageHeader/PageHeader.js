@@ -4,7 +4,7 @@ import './PageHeader.css';
 function PageHeader() {
   return(
     <div id="header-container">
-      <h1>Kadhiravan Umasankar</h1>
+      <h1>Kadhir Umasankar</h1>
     </div>
   )
 }

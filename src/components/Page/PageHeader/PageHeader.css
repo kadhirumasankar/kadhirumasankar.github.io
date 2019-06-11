@@ -1,8 +1,11 @@
 #header-container{
-  margin-top: 4%;
+  margin-top: 2%;
   margin-bottom: 2%;
 }
 
 h1{
   color: #374457;
+  font-size: 4em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }

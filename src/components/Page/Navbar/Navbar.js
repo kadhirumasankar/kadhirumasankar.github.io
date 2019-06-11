@@ -5,17 +5,17 @@ import {Icon} from 'semantic-ui-react'
 function Navbar() {
   return(
     <div id="navbar-grid">
-      <div>
-        <Icon name='mail' />kadhirus99@gmail.com
+      <div id="item">
+        <span id="navbar-email"><Icon name='mail' circular  />kadhirus99@gmail.com</span>
       </div>
-      <div id="navbar-link-1">
-        <a href="https://www.linkedin.com/in/kadhirus99/" target="_blank">
-          <Icon name='linkedin' />linkedin.com/in/kadhirus99
+      <div>
+        <a id="item" href="https://www.linkedin.com/in/kadhirus99/" target="_blank">
+          <Icon name='linkedin' circular/>linkedin.com/in/kadhirus99
         </a>
       </div>
-      <div>
+      <div id="item">
         <a href="https://github.com/kadhirumasankar" target="_blank">
-          <Icon name='github' />github.com/kadhirumasankar
+          <Icon name='github' circular/>github.com/kadhirumasankar
         </a>
       </div>
     </div>
