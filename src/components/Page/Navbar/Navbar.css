@@ -9,7 +9,7 @@
   font-family: Roboto, sans-serif;
 }
 
-a {
+#navbar-link {
   color: inherit;
   text-decoration: none;
   display: flex;
@@ -23,7 +23,7 @@ a {
   transition: background .3s;
 }
 
-a:hover {
+#navbar-link:hover {
   color: inherit;
   background: #556070;
 }
