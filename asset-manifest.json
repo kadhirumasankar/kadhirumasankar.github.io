@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.39c19016.chunk.css",
-    "main.js": "/react-gh-pages/static/js/main.ca071661.chunk.js",
-    "main.js.map": "/react-gh-pages/static/js/main.ca071661.chunk.js.map",
-    "runtime~main.js": "/react-gh-pages/static/js/runtime~main.ac2d5040.js",
-    "runtime~main.js.map": "/react-gh-pages/static/js/runtime~main.ac2d5040.js.map",
-    "static/css/2.b3355b6a.chunk.css": "/react-gh-pages/static/css/2.b3355b6a.chunk.css",
-    "static/js/2.dea31e0b.chunk.js": "/react-gh-pages/static/js/2.dea31e0b.chunk.js",
-    "static/js/2.dea31e0b.chunk.js.map": "/react-gh-pages/static/js/2.dea31e0b.chunk.js.map",
-    "index.html": "/react-gh-pages/index.html",
-    "precache-manifest.ee4d2d883bd269d4a81f94290813be25.js": "/react-gh-pages/precache-manifest.ee4d2d883bd269d4a81f94290813be25.js",
-    "service-worker.js": "/react-gh-pages/service-worker.js",
-    "static/css/2.b3355b6a.chunk.css.map": "/react-gh-pages/static/css/2.b3355b6a.chunk.css.map",
-    "static/css/main.39c19016.chunk.css.map": "/react-gh-pages/static/css/main.39c19016.chunk.css.map",
-    "static/media/semantic.min.css": "/react-gh-pages/static/media/outline-icons.ef60a4f6.woff"
+    "main.css": "/static/css/main.39c19016.chunk.css",
+    "main.js": "/static/js/main.6f3d4bb1.chunk.js",
+    "main.js.map": "/static/js/main.6f3d4bb1.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.621b5bde.chunk.css": "/static/css/2.621b5bde.chunk.css",
+    "static/js/2.dea31e0b.chunk.js": "/static/js/2.dea31e0b.chunk.js",
+    "static/js/2.dea31e0b.chunk.js.map": "/static/js/2.dea31e0b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.8cec25ee8cd0d5d0a76bf05d64ed654c.js": "/precache-manifest.8cec25ee8cd0d5d0a76bf05d64ed654c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.621b5bde.chunk.css.map": "/static/css/2.621b5bde.chunk.css.map",
+    "static/css/main.39c19016.chunk.css.map": "/static/css/main.39c19016.chunk.css.map",
+    "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff"
   }
 }
