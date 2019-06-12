@@ -33,8 +33,11 @@ class ProjectCard extends React.Component{
             <ul>
               {details}
             </ul>
+
           </div>
-          <img src={this.props.imageUrl} />
+          <div id="image-container">
+            <img src={this.props.imageUrl}/>
+          </div>
         </div>
 
       </div>
