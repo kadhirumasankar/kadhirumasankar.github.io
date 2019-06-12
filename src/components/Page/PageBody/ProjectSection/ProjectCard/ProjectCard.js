@@ -9,6 +9,7 @@ class ProjectCard extends React.Component{
     const details = detailsList.map((detail,i) => {
       return(<li key={i}>{detail}</li>)
     })
+    const languageBackgroundColor = this.props.language[1]
 
     console.log(detailsList)
     return(
@@ -18,10 +19,10 @@ class ProjectCard extends React.Component{
             {this.props.title}
           </div>
           <div id="card-header-details">
-            <div id="card-header-language">
-              {this.props.language}
+            <div id="card-header-language" style={{backgroundColor: languageBackgroundColor}}>
+              {this.props.language[0]}
             </div>
-            <a id="card-github-button" href="https://github.com/kadhirumasankar" target="_blank"><Icon name='github' size="big"/></a>
+            {this.props.githubUrl ? <a id="card-buttons" href={this.props.githubUrl} target="_blank"><Icon name='github' size="big"/></a> : null} 
           </div>
         </div>
         <div id="card-date">

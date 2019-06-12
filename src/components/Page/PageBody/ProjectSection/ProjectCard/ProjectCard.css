@@ -23,7 +23,7 @@
 
 #card:hover {
   padding: 1.1em 1em;
-  width: 35%;
+  width: 31%;
   -webkit-box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.41);
   -moz-box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.41);
   box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.41);
@@ -54,8 +54,17 @@
   margin-right: .25em;
 }
 
-#card-github-button {
+#card-buttons {
   color: #374457;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+#card-buttons:hover {
+  color: #556070;
 }
 
 #card-date {

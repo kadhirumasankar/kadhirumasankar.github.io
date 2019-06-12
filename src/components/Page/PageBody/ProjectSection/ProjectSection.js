@@ -7,7 +7,7 @@ class ProjectSection extends React.Component {
   render(){
 
     const projects = this.props.info.map((data) => {
-      return (<ProjectCard key={data.key} title={data.title} date={data.date} language={data.language} imageUrl={data.imageUrl} details={data.details}/>)
+      return (<ProjectCard key={data.key} title={data.title} date={data.date} language={data.language} imageUrl={data.imageUrl} details={data.details} githubUrl={data.githubUrl}/>)
     })
 
     return(
