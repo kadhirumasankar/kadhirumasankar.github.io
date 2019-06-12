@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React from 'react'
 import './ProjectCard.css'
 import {Icon} from 'semantic-ui-react'
 
@@ -22,7 +22,7 @@ class ProjectCard extends React.Component{
             <div id="card-header-language" style={{backgroundColor: languageBackgroundColor}}>
               {this.props.language[0]}
             </div>
-            {this.props.githubUrl ? <a id="card-buttons" href={this.props.githubUrl} target="_blank"><Icon name='github' size="big"/></a> : null} 
+            {this.props.githubUrl ? <a id="card-buttons" href={this.props.githubUrl} target="_blank"><Icon name='github' size="big"/></a> : null}
           </div>
         </div>
         <div id="card-date">
