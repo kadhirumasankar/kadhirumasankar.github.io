@@ -7,10 +7,8 @@ class PageBody extends React.Component {
 
   render(){
     return(
-      <div id="page-body">
+      <div id="page-body" name="PageBody">
         <ProjectSection info={projectData}/>
-        {/*<Section title="Education" info={educationData}/>
-        <Section title="Collegiate Activities" info={collegiateActivitiesData}/>*/}
       </div>
     )
   }

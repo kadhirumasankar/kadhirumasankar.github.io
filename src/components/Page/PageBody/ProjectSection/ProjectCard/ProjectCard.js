@@ -11,37 +11,67 @@ class ProjectCard extends React.Component{
     })
     const languageBackgroundColor = this.props.language[1]
 
-    console.log(detailsList)
-    return(
-      <div id="card">
-        <div id="card-header">
-          <div id="card-title">
-            {this.props.title}
-          </div>
-          <div id="card-header-details">
-            <div id="card-header-language" style={{backgroundColor: languageBackgroundColor}}>
-              {this.props.language[0]}
+    if(this.props.size==='small'){
+      return(
+        <div className="card small">
+          <div className="card-header">
+            <div className="card-title">
+              {this.props.title}
             </div>
-            {this.props.githubUrl ? <a id="card-buttons" href={this.props.githubUrl} target="_blank"><Icon name='github' size="big"/></a> : null}
+            <div className="card-header-details">
+              <div className="card-header-language" style={{backgroundColor: languageBackgroundColor}}>
+                {this.props.language[0]}
+              </div>
+              {this.props.githubUrl ? <a className="card-buttons" href={this.props.githubUrl} target="_blank" rel="noopener noreferrer"><Icon name='github' size="big"/></a> : null}
+            </div>
+          </div>
+          <div className="card-date">
+            {this.props.date}
+          </div>
+          <div className="card-content">
+            <div className="card-details">
+              {this.props.additionalText ? <div style={{marginTop: "1em"}}>{this.props.additionalText}</div> : null}
+              <ul>
+                {details}
+              </ul>
+            </div>
+            <div className="image-container">
+              <img src={this.props.imageUrl} alt={this.props.title}/>
+            </div>
           </div>
         </div>
-        <div id="card-date">
-          {this.props.date}
-        </div>
-        <div id="card-content">
-          <div id="card-details">
-            <ul>
-              {details}
-            </ul>
-
+      )
+    }else if (this.props.size==='normal') {
+      return(
+        <div className="card">
+          <div className="card-header">
+            <div className="card-title">
+              {this.props.title}
+            </div>
+            <div className="card-header-details">
+              <div className="card-header-language" style={{backgroundColor: languageBackgroundColor}}>
+                {this.props.language[0]}
+              </div>
+              {this.props.githubUrl ? <a className="card-buttons" href={this.props.githubUrl} target="_blank" rel="noopener noreferrer"><Icon name='github' size="big"/></a> : null}
+            </div>
           </div>
-          <div id="image-container">
-            <img src={this.props.imageUrl}/>
+          <div className="card-date">
+            {this.props.date}
+          </div>
+          <div className="card-content">
+            <div className="card-details">
+              {this.props.additionalText ? <div style={{marginTop: "1em"}}>{this.props.additionalText}</div> : null}
+              <ul>
+                {details}
+              </ul>
+            </div>
+            <div className="image-container">
+              <img src={this.props.imageUrl} alt={this.props.title}/>
+            </div>
           </div>
         </div>
-
-      </div>
-    )
+      )
+    }
   }
 }
 

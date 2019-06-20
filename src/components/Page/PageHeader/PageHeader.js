@@ -11,17 +11,17 @@ function PageHeader() {
       </div>
       <div id="header-text">
         <div>
-          <img id="header-image" src={profilePicture} /><br />
+          <img id="header-image" src={profilePicture} alt="Kadhir Umasankar"/><br />
           <div id="text">
             Hi, I&#39;m&nbsp;<b>Kadhir Umasankar</b>.<br />
-            ASE student <b style={{color:"#bb5826"}}>@UTAustin</b>.
+            Aerospace Engineering student <b style={{color:"#bb5826"}}>@UTAustin</b>.
           </div>
         </div>
       </div>
-      <div id="header-bottom-text">
+      <a id="header-bottom-text" href="#PageBody">
         Scroll to see my work<br />
         <Icon name='caret down' />
-      </div>
+      </a>
     </div>
   )
 }
