@@ -23,6 +23,7 @@
 }
 
 .card.small .card-details {
+  align-self: center;
   font-size: 1.1em;
 }
 

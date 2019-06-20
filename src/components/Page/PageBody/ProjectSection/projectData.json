@@ -2,6 +2,16 @@
   {
     "key": 1,
     "size": "small",
+    "title": "Freshman Year",
+    "date": "Fall 2017 - Spring 2018",
+    "language": ["Education","#bb5826"],
+    "imageUrl": "https://i.imgur.com/8onyBu4.jpg",
+    "additionalText": "Classes taken:",
+    "details": ["Differential Equations with Linear Algebra",  "Statics", "Engineering Design Graphics","Sequences, Series and Multivariable Calculus", "Intro to Computer Programming", "Principles of Chemistry I"]
+  },
+  {
+    "key": 2,
+    "size": "small",
     "title": "Sophomore Year",
     "date": "Fall 2018 - Spring 2019",
     "language": ["Education","#bb5826"],
@@ -10,7 +20,7 @@
     "details": ["Spacecraft Dynamics", "Low-Speed Aerodynamics", "Mechanics of Solids", "Vector Calculus", "Dynamics", "Thermodynamics", "Engineering Computation", "Foundations of Accounting",  "Engineering Communication"]
   },
   {
-    "key": 2,
+    "key": 3,
     "size": "normal",
     "title": "ColorCube Class for UAVA",
     "date": "Spring 2019",
@@ -19,7 +29,7 @@
     "details": ["Improved accuracy of the color classification component of our competition plane","Used HSV instead of RBG color model to make a 3-D coordinate system","Created cubes for various colors and checked whether input color was contained in cubes"]
   },
   {
-    "key": 3,
+    "key": 4,
     "size": "normal",
     "title": "Manual Image Rec UI for UAVA",
     "date": "Spring 2019",
@@ -28,7 +38,7 @@
     "details": ["Used ReactJS and Semantic UI React to develop the Manual Image Recognition UI for competition"]
   },
   {
-    "key": 4,
+    "key": 5,
     "size": "normal",
     "title": "My website",
     "date": "June 2019",
