@@ -8,16 +8,16 @@ function Navbar() {
     <a id="PageBody" />
     <div id="navbar-grid">
       <div>
-        <span id="navbar-email"><Icon name='mail' circular />kadhirus99@gmail.com</span>
+        <span className="navbar-email"><Icon name='mail' circular />kadhirus99@gmail.com</span>
       </div>
       <div>
-        <a id="navbar-link" href="https://www.linkedin.com/in/kadhirus99/" target="_blank" rel="noopener noreferrer">
-          <Icon name='linkedin' circular/>linkedin.com/in/kadhirus99
+        <a className="navbar-link" href="https://www.linkedin.com/in/kadhirus99/" target="_blank" rel="noopener noreferrer">
+          <Icon name='linkedin' circular/><span className="navbar-link-text">linkedin.com/in/kadhirus99</span>
         </a>
       </div>
       <div>
-        <a id="navbar-link" href="https://github.com/kadhirumasankar" target="_blank" rel="noopener noreferrer">
-          <Icon name='github' circular/>github.com/kadhirumasankar
+        <a className="navbar-link" href="https://github.com/kadhirumasankar" target="_blank" rel="noopener noreferrer">
+          <Icon name='github' circular/><span className="navbar-link-text">github.com/kadhirumasankar</span>
         </a>
       </div>
     </div>
