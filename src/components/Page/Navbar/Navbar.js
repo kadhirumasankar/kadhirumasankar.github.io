@@ -7,6 +7,8 @@ function Navbar() {
     <div>
     <a id="PageBody" />
     <div id="navbar-grid">
+      <div><a className="navbar-link"><Icon name='user' circular />About Me</a></div>
+      <div><a className="navbar-link"><Icon name='clipboard list' circular/>My Work</a></div>
       <div>
         <span className="navbar-email"><Icon name='mail' circular />kadhirus99@gmail.com</span>
       </div>
