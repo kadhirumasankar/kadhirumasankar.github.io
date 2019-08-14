@@ -1,0 +1,41 @@
+@mixin box-shadow($args...) {
+  -webkit-box-shadow: $args;
+  -moz-box-shadow: $args;
+  -ms-box-shadow: $args;
+  -o-box-shadow: $args;
+  box-shadow: $args;
+}
+
+#about-container{
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+  min-height: 100vh;
+}
+
+.about-title{
+  text-align: center;
+  font-weight: bold;
+  color: #374457;
+  font-size: 3em;
+  padding: .35em;
+}
+
+.about-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p{
+    line-height: 1.5em;
+    font-size: 1.5em;
+    text-align: left;
+  }
+
+  img{
+    width: 40%;
+    @include box-shadow(0 1px 5px rgba(0, 0, 0, 0.46));
+    border-radius: .1em;
+    // background: none repeat scroll 0 0 #E9E9E9;
+  }
+}

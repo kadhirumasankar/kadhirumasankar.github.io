@@ -1,0 +1,50 @@
+[
+  {
+    "key": 1,
+    "size": "small",
+    "title": "Freshman Year",
+    "date": "Fall 2017 - Spring 2018",
+    "language": ["Education","#bb5826"],
+    "imageUrl": "https://i.imgur.com/8onyBu4.jpg",
+    "additionalText": "Classes taken:",
+    "details": ["Differential Equations with Linear Algebra",  "Statics", "Engineering Design Graphics","Sequences, Series and Multivariable Calculus", "Intro to Computer Programming", "Principles of Chemistry I"]
+  },
+  {
+    "key": 2,
+    "size": "small",
+    "title": "Sophomore Year",
+    "date": "Fall 2018 - Spring 2019",
+    "language": ["Education","#bb5826"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Texas_Longhorns_logo.svg/1280px-Texas_Longhorns_logo.svg.png",
+    "additionalText": "Classes taken:",
+    "details": ["Spacecraft Dynamics", "Low-Speed Aerodynamics", "Mechanics of Solids", "Vector Calculus", "Dynamics", "Thermodynamics", "Engineering Computation", "Foundations of Accounting",  "Engineering Communication"]
+  },
+  {
+    "key": 3,
+    "size": "normal",
+    "title": "ColorCube Class for UAVA",
+    "date": "Spring 2019",
+    "language": ["Python","#fbbd08"],
+    "imageUrl": "https://uavaustin.org/assets/img/uava_logo_two_tone_dark.png",
+    "details": ["Improved accuracy of the color classification component of our competition plane","Used HSV instead of RBG color model to make a 3-D coordinate system","Created cubes for various colors and checked whether input color was contained in cubes"]
+  },
+  {
+    "key": 4,
+    "size": "normal",
+    "title": "Manual Image Rec UI for UAVA",
+    "date": "Spring 2019",
+    "language": ["ReactJS","#00d8ff"],
+    "imageUrl": "https://i.imgur.com/ogYYHiL.png",
+    "details": ["Used ReactJS and Semantic UI React to develop the Manual Image Recognition UI for competition"]
+  },
+  {
+    "key": 5,
+    "size": "normal",
+    "title": "My website",
+    "date": "June 2019",
+    "language": ["ReactJS","#00d8ff"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png",
+    "githubUrl": "https://github.com/kadhirumasankar/kadhirumasankar.github.io",
+    "details": ["Made entirely from scratch using ReactJS","Implemented SCSS in some places", "Extensively used Grid and Flexbox"]
+  }
+]

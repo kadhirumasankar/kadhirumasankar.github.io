@@ -9,5 +9,5 @@ function App() {
     </div>
   );
 }
-
+// COMBAK: change all the classes to one line exports
 export default App;
