@@ -4,7 +4,6 @@ import {Icon} from 'semantic-ui-react'
 import { Route } from 'react-router-dom'
 import profilePicture from './ProfilePicture.png'
 import kwwPicture from './kwwPicture.png'
-import { useAlert } from 'react-alert'
 
 export default class PageHeader extends React.Component{
 

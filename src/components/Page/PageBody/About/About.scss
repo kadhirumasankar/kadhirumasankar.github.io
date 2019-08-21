@@ -52,7 +52,16 @@
     font-size: 2em;
   }
 
-  .about-text{
+  .about-content{
+    // margin-right: 10%;
     font-size: .75em;
+    .about-table{
+      flex-direction: column;
+    }
+    img{
+      width: 75%;
+    }
   }
+
+
 }

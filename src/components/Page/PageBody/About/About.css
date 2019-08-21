@@ -36,7 +36,13 @@
   .about-title {
     font-size: 2em;
   }
-  .about-text {
+  .about-content {
     font-size: .75em;
+  }
+  .about-content .about-table {
+    flex-direction: column;
+  }
+  .about-content img {
+    width: 75%;
   }
 }
