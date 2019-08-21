@@ -6,16 +6,46 @@ import projectData from './Work/projectData.json'
 import Work from './Work/Work'
 import About from './About/About'
 
-class PageBody extends React.Component {
+export default class PageBody extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      width: window.innerWidth,
+    }
+  }
+
+  componentWillMount() {
+    window.addEventListener('resize', this.handleWindowSizeChange)
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.handleWindowSizeChange)
+  }
+
+  handleWindowSizeChange = () => {
+    this.setState({ width: window.innerWidth })
+  }
+
+
 
   render(){
-    return(
-      <div id="page-body" name="PageBody">
-        <Route path="/" exact component={Work} />
-        <Route path="/about" component={About} />
-      </div>
-    )
+    const { width } = this.state;
+    const isMobile = width <= 1100;
+
+    if (isMobile) {
+      return(
+        <div id="page-body" name="PageBody">
+          <About isMobile={isMobile}/>
+          <Work />
+        </div>
+      )
+    }else{
+      return(
+        <div id="page-body" name="PageBody">
+          <Route path="/" exact component={Work} />
+          <Route path="/about" component={About} />
+        </div>
+      )
+    }
   }
 }
-
-export default PageBody
