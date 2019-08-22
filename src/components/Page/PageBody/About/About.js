@@ -23,8 +23,7 @@ export default class About extends React.Component {
           </div>
           <div className="about-content">
             <div className="about-table">
-              {aboutText}<br />
-              <img id="header-image" src={img1} /> <br />
+              {aboutText}
             </div>
             <ProjectCard title="Contact Information" size="normal" date="Get in touch with me" details={[[<Icon name='mail' circular />, ' kadhirus99@gmail.com'],[<Icon name='linkedin' circular />, <a href="https://www.linkedin.com/in/kadhirus99/" target="_blank"> /in/kadhirus99/</a>],[<Icon name='facebook' circular />, <a href="https://www.facebook.com/kadhir1999" target="_blank"> /kadhir1999</a>]]} noBullets={true}/>
           </div>
