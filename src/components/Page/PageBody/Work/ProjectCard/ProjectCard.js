@@ -16,6 +16,17 @@ class ProjectCard extends React.Component{
     if (this.props.language){
       languageBackgroundColor = this.props.language[1]
     }
+    let githubUrl = ''
+    if (this.props.githubUrl){
+      if (this.props.githubUrl === "private"){
+        githubUrl = <a title="The code for this project is in a private repository" className="card-buttons" href={this.props.githubUrl} target="_blank" rel="noopener noreferrer"><Icon disabled name='github' size="big"/></a>
+      }else{
+        githubUrl = <a className="card-buttons" href={this.props.githubUrl} target="_blank" rel="noopener noreferrer"><Icon name='github' size="big"/></a>
+      }
+    }else{
+      githubUrl = null
+    }
+
 
     if(this.props.size==='small'){
       return(
@@ -28,7 +39,6 @@ class ProjectCard extends React.Component{
               <div className="card-header-language" style={{backgroundColor: languageBackgroundColor}}>
                 {this.props.language[0]}
               </div>
-              {this.props.githubUrl ? <a className="card-buttons" href={this.props.githubUrl} target="_blank" rel="noopener noreferrer"><Icon name='github' size="big"/></a> : null}
             </div>
           </div>
           <div className="card-date">
@@ -56,7 +66,7 @@ class ProjectCard extends React.Component{
             </div>
             <div className="card-header-details">
               {this.props.language ? <div className="card-header-language" style={{backgroundColor: languageBackgroundColor}}>{this.props.language[0]}</div> : null}
-              {this.props.githubUrl ? <a className="card-buttons" href={this.props.githubUrl} target="_blank" rel="noopener noreferrer"><Icon name='github' size="big"/></a> : null}
+              {githubUrl}
             </div>
           </div>
           {
