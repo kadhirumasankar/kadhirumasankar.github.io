@@ -97,7 +97,7 @@ img {
   grid-template-columns: 1fr 1fr;
 }
 .card.small .card-details {
-  align-self: center;
+  align-self: flex-start;
   font-size: 1.1em;
 }
 .card.small .image-container {
