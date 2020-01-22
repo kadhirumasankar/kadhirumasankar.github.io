@@ -18,15 +18,13 @@
   -moz-box-shadow: 0 0 3px 1px rgba(0,0,0,0.25);
   box-shadow: 0 0 3px 1px rgba(0,0,0,0.25);
   border-radius: 0.25em;
-  @include transition(box-shadow 0.1s, width 0.1s)
-}
-
-.card:hover {
-  padding: 1.1em 1em;
-  width: 50.5%;
-  -webkit-box-shadow: 0 0 3px 2px rgba(0,0,0,0.41);
-  -moz-box-shadow: 0 0 3px 2px rgba(0,0,0,0.41);
-  box-shadow: 0 0 3px 2px rgba(0,0,0,0.41);
+  @include transition(box-shadow .2s);
+  
+  &:hover {
+    -webkit-box-shadow: 0 0 4px 3px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0 0 4px 3px rgba(0,0,0,0.25);
+    box-shadow: 0 0 4px 3px rgba(0,0,0,0.25);
+  }
 }
 
 .card-header {
@@ -55,8 +53,8 @@
 
 .card-buttons {
   color: #374457;
-
-  @include transition(color .3s) &:hover {
+  @include transition(color .3s);
+  &:hover {
     color: #556070;
   }
 }
@@ -142,15 +140,14 @@ img {
   }
 
   .card:hover {
-    width: 90%;
     -webkit-box-shadow: 0 0 3px 1px rgba(0,0,0,0.25);
     -moz-box-shadow: 0 0 3px 1px rgba(0,0,0,0.25);
     box-shadow: 0 0 3px 1px rgba(0,0,0,0.25);
-    padding: 1em;
   }
 
   .card-title{
-    font-size: 4vw;
+    font-size: 140%;
+    line-height: 2rem;
     width: 65%;
   }
   .card-date{

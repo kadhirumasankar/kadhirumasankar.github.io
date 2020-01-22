@@ -1,7 +1,7 @@
 .card {
   display: grid;
   background-color: white;
-  grid-template: 2.85em 1.15em 1fr / 1fr;
+  grid-template: 2.85em 1.15em 1fr/1fr;
   width: 50%;
   margin: 1.5em 0;
   padding: 1em;
@@ -10,19 +10,16 @@
   -moz-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.25);
   box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.25);
   border-radius: 0.25em;
-  -webkit-transition: box-shadow 0.1s, width 0.1s;
-  -moz-transition: box-shadow 0.1s, width 0.1s;
-  -ms-transition: box-shadow 0.1s, width 0.1s;
-  -o-transition: box-shadow 0.1s, width 0.1s;
-  transition: box-shadow 0.1s, width 0.1s;
+  -webkit-transition: box-shadow 0.2s;
+  -moz-transition: box-shadow 0.2s;
+  -ms-transition: box-shadow 0.2s;
+  -o-transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s;
 }
-
 .card:hover {
-  padding: 1.1em 1em;
-  width: 50.5%;
-  -webkit-box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.41);
-  -moz-box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.41);
-  box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.41);
+  -webkit-box-shadow: 0 0 4px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 0 4px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 4px 3px rgba(0, 0, 0, 0.25);
 }
 
 .card-header {
@@ -58,7 +55,6 @@
   -o-transition: color 0.3s;
   transition: color 0.3s;
 }
-
 .card-buttons:hover {
   color: #556070;
 }
@@ -100,17 +96,14 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
 .card.small .card-details {
   align-self: center;
   font-size: 1.1em;
 }
-
 .card.small .image-container {
   align-self: center;
   width: 100%;
 }
-
 .card.small .image-container img {
   height: 100%;
 }
@@ -131,22 +124,27 @@ img {
   .card.small .image-container img {
     height: 100%;
   }
+
   .card {
     width: 90%;
     font-size: 3vw;
   }
+
   .card:hover {
-    width: 90%;
     -webkit-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.25);
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.25);
-    padding: 1em;
   }
+
   .card-title {
-    font-size: 4vw;
+    font-size: 140%;
+    line-height: 2rem;
     width: 65%;
   }
+
   .card-date {
     font-size: 2.7vw;
   }
 }
+
+/*# sourceMappingURL=ProjectCard.css.map */
