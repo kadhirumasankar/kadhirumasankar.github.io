@@ -15,15 +15,14 @@ export default class PageHeader extends React.Component{
     this.handleClick = this.handleClick.bind(this)
   }
 
-  componentDidMount(){
-    console.log(this.state.clickCount)
-  }
+  // componentDidMount(){
+  //   console.log(this.state.clickCount)
+  // }
 
   handleClick = () => {
     this.setState(prevState => {
        return {clickCount: prevState.clickCount + 1}
     })
-    // useAlert().show('Oh look, an alert!')
     console.log(this.state.clickCount)
   }
 
@@ -39,7 +38,10 @@ export default class PageHeader extends React.Component{
             <img id="header-image" src={this.state.clickCount < 13 ? profilePicture : kwwPicture} alt="Kadhir Umasankar" onClick={this.handleClick}/><br />
             <div id="text">
               Hi, I&#39;m&nbsp;<b>Kadhir Umasankar</b>.<br />
-              Aerospace Engineering student <b style={{color:"#bb5826"}}>@UTAustin</b>.
+              <div style={{fontSize: '90%'}}>
+                Aerospace Engineering student <a href="https://www.utexas.edu/" target="_blank" rel="noopener noreferrer" style={{color:"#bb5826", fontWeight: 'bold'}}>@UTAustin</a>.<br />
+                Future intern <a href="https://www.sandia.gov/" target="_blank" rel="noopener noreferrer" style={{color:"#00add0", fontWeight: 'bold'}}>@Sandia</a>.<br />
+              </div>
             </div>
           </div>
         </div>
