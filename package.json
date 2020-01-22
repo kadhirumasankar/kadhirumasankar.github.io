@@ -4,7 +4,10 @@
   "private": true,
   "homepage": "http://kadhirumasankar.github.io/",
   "dependencies": {
+    "eslint-utils": "^1.4.2",
     "history": "^1.17.0",
+    "lodash": "^4.17.15",
+    "lodash.template": "^4.5.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router": "^5.0.1",
