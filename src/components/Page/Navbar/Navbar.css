@@ -1,10 +1,10 @@
 #navbar-grid {
   display: grid;
-  grid-template: 60px / 1fr 1fr 1fr 1fr 1fr;
+  grid-template: 2.75em / 1fr 1fr 1fr 1fr 1fr;
   width: 100%;
   background-color: #374457;
   color: #fafafa;
-  font-size: 1.75em;
+  font-size: 1.5em;
   font-weight: 300;
   font-family: Roboto, sans-serif;
   border-top: solid 1px #27303D;
@@ -44,4 +44,33 @@
   height: 100%;
   justify-content: center;
   align-items: center;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  opacity: 0;
+  width: 100%;
+  background-color: #6c6c6c;
+  color: #fff;
+  text-align: center;
+  border-radius: 0.25em;
+  padding: 0.25em 0.25em;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 105%;
+  right: 0%;
+  /* margin-left: -60px; */
+  -webkit-transition: opacity 0.2s ease 0s;
+}
+
+.tooltip:hover .tooltiptext {
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease 0.3s;
 }
