@@ -7,7 +7,14 @@
     "language": ["Education","#bb5826"],
     "imageUrl": "https://i.imgur.com/8onyBu4.jpg",
     "additionalText": "Classes taken:",
-    "details": ["Differential Equations with Linear Algebra",  "Statics", "Engineering Design Graphics","Sequences, Series and Multivariable Calculus", "Intro to Computer Programming", "Principles of Chemistry I"]
+    "details": [
+      "Differential Equations with Linear Algebra",  
+      "Statics", 
+      "Engineering Design Graphics",
+      "Sequences, Series and Multivariable Calculus", 
+      "Intro to Computer Programming", 
+      "Principles of Chemistry I"
+    ]
   },
   {
     "key": 2,
@@ -17,7 +24,17 @@
     "language": ["Education","#bb5826"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Texas_Longhorns_logo.svg/1280px-Texas_Longhorns_logo.svg.png",
     "additionalText": "Classes taken:",
-    "details": ["Spacecraft Dynamics", "Low-Speed Aerodynamics", "Mechanics of Solids", "Vector Calculus", "Dynamics", "Thermodynamics", "Engineering Computation", "Foundations of Accounting",  "Engineering Communication"]
+    "details": [
+      "Spacecraft Dynamics", 
+      "Low-Speed Aerodynamics", 
+      "Mechanics of Solids", 
+      "Vector Calculus", 
+      "Dynamics", 
+      "Thermodynamics", 
+      "Engineering Computation", 
+      "Foundations of Accounting",  
+      "Engineering Communication"
+    ]
   },
   {
     "key": 3,
@@ -27,7 +44,11 @@
     "language": ["Python","#fbbd08"],
     "githubUrl": "https://github.com/uavaustin/target-finder/blob/master/target_finder/color_cube.py",
     "imageUrl": "https://uavaustin.org/assets/img/uava_logo_two_tone_dark.png",
-    "details": ["Improved accuracy of the color classification component of our competition plane","Used HSV instead of RBG color model to make a 3-D coordinate system","Created cubes for various colors and checked whether input color was contained in cubes"]
+    "details": [
+      "Improved accuracy of the color classification component of our competition plane",
+      "Used HSV instead of RBG color model to make a 3-D coordinate system",
+      "Created cubes for various colors and checked whether input color was contained in cubes"
+    ]
   },
   {
     "key": 4,
@@ -37,27 +58,39 @@
     "language": ["ReactJS","#00d8ff"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png",
     "githubUrl": "https://github.com/kadhirumasankar/kadhirumasankar.github.io",
-    "details": ["Made entirely from scratch using ReactJS","Implemented SCSS in some places", "Extensively used Grid and Flexbox"]
+    "details": [
+      "Made entirely from scratch using ReactJS",
+      "Implemented SCSS in some places", 
+      "Extensively used Grid and Flexbox"
+    ],
+    "expandedDetails": "I stayed in Austin over the summer to help the Texas Rocket Engineering Lab with some work, and since I had recently learned React, I wanted to use that knowledge to make a website to showcase my projects. I also learned Grid and Flexbox to help me design the website."
   },
   {
     "key": 5,
     "size": "small",
-    "title": "Junior Year",
-    "date": "Fall 2019 - *",
+    "title": "Junior Year - Fall 2019",
+    "date": "Fall 2019",
     "language": ["Education","#bb5826"],
     "imageUrl": "https://i.imgur.com/orTHsos.png",
     "additionalText": "Classes taken:",
-    "details": ["Linear Systems Analysis", "Electromechanical Systems", "Attitude Dynamics", "Rocket Engineering Practicum", "Foundations of Management"]
+    "details": [
+      "Linear Systems Analysis", 
+      "Electromechanical Systems", 
+      "Attitude Dynamics", 
+      "Rocket Engineering Practicum", 
+      "Foundations of Management"
+    ]
   },
   {
     "key": 6,
     "size": "normal",
     "title": "Manual Image Rec UI for UAVA",
-    "date": "Spring 2019 - *",
+    "date": "Spring 2019 - Spring 2020",
     "language": ["ReactJS","#00d8ff"],
-    "imageUrl": "https://i.imgur.com/ogYYHiL.png",
+    "imageUrl": "https://i.imgur.com/Afkwqf3.gif",
     "githubUrl": "https://github.com/uavaustin/manual-image-rec",
-    "details": ["Using ReactJS and Semantic UI React to develop the Manual Image Recognition UI for competition"]
+    "details": ["Using ReactJS and Semantic UI React to develop the Manual Image Recognition UI for competition"],
+    "expandedDetails": "In Spring 2019, I was tasked to use my knowledge with web development to make a manual image recognition interface that would be used at competition. I also had to learn React to make this interface. The interface would need to have an Explorer page which would show pictures taken by the flight camera, where the user could select an image, and a Classifier page where the user would be able to select targets and send them to the our automatic object classifier model and then to the competition server."
   },
   {
     "key": 7,
@@ -65,8 +98,35 @@
     "title": "Parachute Drift Model for TREL",
     "date": "Fall 2019",
     "language": ["MATLAB","#842613"],
+    "imageUrl": "https://i.imgur.com/Auw8L43.png",
+    "githubUrl": "https://gist.github.com/kadhirumasankar/43e64613d691f331b2f8273c45dedbd9",
+    "details": ["Used the Monte Carlo simulation to predict drift area for the Texas Rocket Engineering Lab rocket after the parachutes are deployed"],
+    "expandedDetails": "In Fall 2019, I was made the Responsible Engineer of a team tasked with making a computational model in MATLAB to predict the range that the TREL rocket would drift after its parachutes were deployed. We used the Monte Carlo simulation to approximate the unpredictable nature of the rocket due to random wind conditions. The model took atmospheric conditions into account, and the model was ensured to be versatile and work with different variable values."
+  },
+  {
+    "key": 8,
+    "size": "small",
+    "title": "Online Courses",
+    "date": "Winter 2019",
+    "language": ["Education","#bb5826"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png",
     "githubUrl": "https://gist.github.com/kadhirumasankar/43e64613d691f331b2f8273c45dedbd9",
-    "details": ["Using the Monte Carlo simulation to predict drift area for the Texas Rocket Engineering Lab rocket after the parachutes are deployed"]
+    "details": ["Stanford Machine Learning Course", "Microsoft Computer Vision Course", "Become a Pro React Developer", "React Native"]
+  },
+  {
+    "key": 9,
+    "size": "small",
+    "title": "Junior Year - Spring 2020",
+    "date": "Spring 2020",
+    "language": ["Education","#bb5826"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/University_of_Texas_at_Austin_seal.svg/1200px-University_of_Texas_at_Austin_seal.svg.png",
+    "additionalText": "Classes taken:",
+    "details": [
+      "Applied Orbital Mechanics",
+      "Feedback Control Systems",
+      "Compressible Flow",
+      "Flight Dynamics",
+      "Foundations of Marketing"
+    ]
   }
 ]

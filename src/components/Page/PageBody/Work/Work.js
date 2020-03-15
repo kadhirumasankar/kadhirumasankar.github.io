@@ -13,7 +13,7 @@ export default class Work extends React.Component {
         <div id="projects">
           {
             projectData.map((data) => {
-            return (<ProjectCard key={data.key} size={data.size} title={data.title} date={data.date} language={data.language} imageUrl={data.imageUrl} details={data.details} githubUrl={data.githubUrl} additionalText={data.additionalText}/>)
+            return (<ProjectCard key={data.key} size={data.size} title={data.title} date={data.date} language={data.language} imageUrl={data.imageUrl} details={data.details} githubUrl={data.githubUrl} additionalText={data.additionalText} expandedDetails={data.expandedDetails}/>)
             })
           }
         </div>
