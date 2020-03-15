@@ -3,6 +3,10 @@ import './ProjectCard.css'
 import {Icon} from 'semantic-ui-react'
 
 class ProjectCard extends React.Component{
+  state = {
+    isExpanded: false,
+    size: this.props.size
+  }
 
   render(){
     const detailsList = this.props.details
@@ -28,7 +32,7 @@ class ProjectCard extends React.Component{
     }
 
 
-    if(this.props.size==='small'){
+    if(this.state.size==='small'){
       return(
         <div className="card small">
           <div className="card-header">
@@ -57,9 +61,19 @@ class ProjectCard extends React.Component{
           </div>
         </div>
       )
-    }else if (this.props.size==='normal') {
+    }else if (this.state.size==='normal') {
       return(
-        <div className="card">
+        <div 
+          className="card" 
+          onClick = {() => {
+            if (this.props.expandedDetails){
+              this.setState({
+               size: 'large' 
+              })
+            }
+          }}
+          style={this.props.expandedDetails ? {cursor: 'pointer'} : {cursor: 'default'}}
+        >
           <div className="card-header">
             <div className="card-title">
               {this.props.title}
@@ -75,14 +89,67 @@ class ProjectCard extends React.Component{
                 {this.props.date}
               </div>
             :
-              null
+            null
           }
           <div className="card-content">
             <div className="card-details">
-              {this.props.additionalText ? <div style={{marginTop: "1em"}}>{this.props.additionalText}</div> : null}
-              <ul {... this.props.noBullets ? {style: {listStyleType: 'none', paddingLeft: 0, marginLeft: 0, lineHeight:'250%'}} : null} >
-                {details}
-              </ul>
+              <div className="expanded-text">
+                {this.props.expandedDetails ? <div style={{marginTop: "1em"}}>{this.props.expandedDetails}</div> : null}
+              </div>
+              <div className="normal-text">
+                {this.props.additionalText ? <div style={{marginTop: "1em"}}>{this.props.additionalText}</div> : null}
+                <ul {... this.props.noBullets ? {style: {listStyleType: 'none', paddingLeft: 0, marginLeft: 0, lineHeight:'250%'}} : null} >
+                  {details}
+                </ul>
+              </div>
+            </div>
+            {this.props.imageUrl ?
+              <div className="image-container">
+                <img src={this.props.imageUrl} alt={this.props.title}/>
+              </div>
+            : null
+          }
+          </div>
+        </div>
+      )
+    }else if (this.state.size==='large') {
+      return(
+        <div 
+          className="card large" 
+          onClick = {() => {
+            this.setState({
+             size: 'normal' 
+            })
+          }}
+        >
+          <div className="card-header">
+            <div className="card-title">
+              {this.props.title}
+            </div>
+            <div className="card-header-details">
+              {this.props.language ? <div className="card-header-language" style={{backgroundColor: languageBackgroundColor}}>{this.props.language[0]}</div> : null}
+              {githubUrl}
+            </div>
+          </div>
+          {
+            this.props.date ?
+              <div className="card-date">
+                {this.props.date}
+              </div>
+            :
+            null
+          }
+          <div className="card-content">
+            <div className="card-details">
+              <div className="expanded-text">
+                {this.props.expandedDetails ? <div style={{marginTop: "1em"}}>{this.props.expandedDetails}</div> : null}
+              </div>
+              <div className="normal-text">
+                {this.props.additionalText ? <div style={{marginTop: "1em"}}>{this.props.additionalText}</div> : null}
+                <ul {... this.props.noBullets ? {style: {listStyleType: 'none', paddingLeft: 0, marginLeft: 0, lineHeight:'250%'}} : null} >
+                  {details}
+                </ul>
+              </div>
             </div>
             {this.props.imageUrl ?
               <div className="image-container">
