@@ -40,7 +40,7 @@ export default class PageHeader extends React.Component{
               Hi, I&#39;m&nbsp;<b>Kadhir Umasankar</b>.<br />
               <div style={{fontSize: '90%'}}>
                 Aerospace Engineering student <a href="https://www.utexas.edu/" target="_blank" rel="noopener noreferrer" style={{color:"#bb5826", fontWeight: 'bold'}}>@UTAustin</a>.<br />
-                Future intern <a href="https://www.sandia.gov/" target="_blank" rel="noopener noreferrer" style={{color:"#00add0", fontWeight: 'bold'}}>@Sandia</a>.<br />
+                Future intern <a href="https://www.sandia.gov/" target="_blank" rel="noopener noreferrer" style={{color:"#00add0", fontWeight: 'bold'}}>@SandiaNationalLabs</a>.<br />
               </div>
             </div>
           </div>
