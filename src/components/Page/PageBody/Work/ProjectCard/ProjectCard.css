@@ -15,11 +15,6 @@
   -ms-transition: box-shadow 0.1s;
   -o-transition: box-shadow 0.1s;
   transition: box-shadow 0.1s;
-  -webkit-transition: width 0.3s;
-  -moz-transition: width 0.3s;
-  -ms-transition: width 0.3s;
-  -o-transition: width 0.3s;
-  transition: width 0.3s;
 }
 .card .expanded-text {
   height: auto;
