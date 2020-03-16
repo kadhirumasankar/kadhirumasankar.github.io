@@ -1,0 +1,119 @@
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+    margin-top: -50px;
+  }
+  20% {
+    opacity: 0;
+    margin-top: -50px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+@-moz-keyframes fade-in {
+  0% {
+    opacity: 0;
+    margin-top: -50px;
+  }
+  20% {
+    opacity: 0;
+    margin-top: -50px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+@-o-keyframes fade-in {
+  0% {
+    opacity: 0;
+    margin-top: -50px;
+  }
+  20% {
+    opacity: 0;
+    margin-top: -50px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    margin-top: -50px;
+  }
+  20% {
+    opacity: 0;
+    margin-top: -50px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+#header-container {
+  background-color: #374457;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: #fafafa;
+  font-family: "Noto Sans HK", sans-serif;
+}
+
+#header-text {
+  line-height: 1.25em;
+  font-size: 3vw;
+  -webkit-text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.15);
+  -moz-text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.15);
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.15);
+}
+
+#header-image {
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+  /* border: .1em solid #3F4D63; */
+  -webkit-box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+#header-bottom-text {
+  align-items: flex-end;
+  font-size: 1vw;
+  line-height: 1em;
+  padding-bottom: 0.25%;
+  -webkit-text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.15);
+  -moz-text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.15);
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+@media only screen and (max-width: 1100px) and (orientation: portrait) {
+  #header-container {
+    height: 92vh;
+  }
+
+  #header-text {
+    font-size: 6.5vw;
+  }
+
+  #header-bottom-text {
+    font-size: 2.5vw;
+  }
+
+  #header-image {
+    width: 50%;
+  }
+}
+
+/*# sourceMappingURL=PageHeader.css.map */
