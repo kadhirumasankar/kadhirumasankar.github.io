@@ -48,7 +48,8 @@
       "Improved accuracy of the color classification component of our competition plane",
       "Used HSV instead of RBG color model to make a 3-D coordinate system",
       "Created cubes for various colors and checked whether input color was contained in cubes"
-    ]
+    ],
+    "expandedDetails": "I joined the image recognition team of the Unmanned Aerial Vehicle Austin team in the Spring of 2019 to increase my proficiency with Python. Prior to the this, our software used the distance formula to classify colors. This made the color classification system because, for instance, it would classify both pink and purple as red because they were equidistant from \"true\" red, even though they were neither red. I improved this by converting input colors to the HSV system, and setting up a 3-D coordinate system with Hue, Saturation, and Vibrance on the axes. I then made 'Color Cubes' which were areas in the 3-D coordinate space which corresponded to different colors."
   },
   {
     "key": 4,

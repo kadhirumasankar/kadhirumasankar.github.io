@@ -1,6 +1,8 @@
 import React from 'react';
+
 import './Work.css';
 import '../About/About.css'
+
 import ProjectCard from './ProjectCard/ProjectCard'
 import projectData from './projectData.json'
 
