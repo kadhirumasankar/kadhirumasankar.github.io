@@ -1,6 +1,6 @@
 import React from 'react'
 import './ProjectCard.css'
-import {Icon} from 'semantic-ui-react'
+import { Icon, Button } from 'semantic-ui-react'
 
 class ProjectCard extends React.Component{
   state = {
@@ -65,20 +65,19 @@ class ProjectCard extends React.Component{
       return(
         <div 
           className="card" 
-          onClick = {() => {
-            if (this.props.expandedDetails){
-              this.setState({
-               size: 'large' 
-              })
-            }
-          }}
-          style={this.props.expandedDetails ? {cursor: 'pointer'} : {cursor: 'default'}}
         >
           <div className="card-header">
             <div className="card-title">
               {this.props.title}
             </div>
             <div className="card-header-details">
+              {this.props.expandedDetails ? <Button icon='plus' size='mini' style={{marginRight: '5px'}} onClick = {() => {
+                if (this.props.expandedDetails){
+                  this.setState({
+                  size: 'large' 
+                  })
+                }
+              }}/> : null }
               {this.props.language ? <div className="card-header-language" style={{backgroundColor: languageBackgroundColor}}>{this.props.language[0]}</div> : null}
               {githubUrl}
             </div>
@@ -116,17 +115,19 @@ class ProjectCard extends React.Component{
       return(
         <div 
           className="card large" 
-          onClick = {() => {
-            this.setState({
-             size: 'normal' 
-            })
-          }}
         >
           <div className="card-header">
             <div className="card-title">
               {this.props.title}
             </div>
             <div className="card-header-details">
+              {this.props.expandedDetails ? <Button icon='minus' size='mini' style={{marginRight: '5px'}} onClick = {() => {
+                  if (this.props.expandedDetails){
+                    this.setState({
+                    size: 'normal' 
+                    })
+                  }
+                }}/> : null }
               {this.props.language ? <div className="card-header-language" style={{backgroundColor: languageBackgroundColor}}>{this.props.language[0]}</div> : null}
               {githubUrl}
             </div>

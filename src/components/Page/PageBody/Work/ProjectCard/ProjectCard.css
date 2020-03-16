@@ -63,7 +63,6 @@
 }
 .card.large {
   width: 75%;
-  cursor: pointer;
 }
 .card.large .card-content {
   align-content: center;
@@ -86,6 +85,10 @@
   grid-area: 1/1;
 }
 
+.card-header-details {
+  display: flex;
+}
+
 .card-title {
   display: inline;
   font-weight: bold;
@@ -95,6 +98,7 @@
 
 .card-header-language {
   display: inline-flex;
+  justify-content: center;
   background-color: #fbbd08;
   color: white;
   font-size: 1em;
