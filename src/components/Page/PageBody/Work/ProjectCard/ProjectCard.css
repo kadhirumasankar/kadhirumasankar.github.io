@@ -10,11 +10,11 @@
   -moz-box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.25);
   box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.25);
   border-radius: 0.25em;
-  -webkit-transition: box-shadow 0.1s;
-  -moz-transition: box-shadow 0.1s;
-  -ms-transition: box-shadow 0.1s;
-  -o-transition: box-shadow 0.1s;
-  transition: box-shadow 0.1s;
+  -webkit-transition: box-shadow 0.2s, width 0.3s;
+  -moz-transition: box-shadow 0.2s, width 0.3s;
+  -ms-transition: box-shadow 0.2s, width 0.3s;
+  -o-transition: box-shadow 0.2s, width 0.3s;
+  transition: box-shadow 0.2s, width 0.3s;
 }
 .card .expanded-text {
   height: auto;

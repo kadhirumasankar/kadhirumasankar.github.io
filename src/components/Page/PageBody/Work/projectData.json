@@ -107,16 +107,6 @@
   {
     "key": 8,
     "size": "small",
-    "title": "Online Courses",
-    "date": "Winter 2019",
-    "language": ["Education","#bb5826"],
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png",
-    "githubUrl": "https://gist.github.com/kadhirumasankar/43e64613d691f331b2f8273c45dedbd9",
-    "details": ["Stanford Machine Learning Course", "Microsoft Computer Vision Course", "Become a Pro React Developer", "React Native"]
-  },
-  {
-    "key": 9,
-    "size": "small",
     "title": "Junior Year - Spring 2020",
     "date": "Spring 2020",
     "language": ["Education","#bb5826"],
