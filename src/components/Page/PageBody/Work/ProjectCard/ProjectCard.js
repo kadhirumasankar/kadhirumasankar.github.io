@@ -86,20 +86,6 @@ class ProjectCard extends React.Component {
           <div className='card-header'>
             <div className='card-title'>{this.props.title}</div>
             <div className='card-header-details'>
-              {this.props.expandedDetails ? (
-                <Button
-                  icon='plus'
-                  size='mini'
-                  style={{ marginRight: "5px" }}
-                  onClick={() => {
-                    if (this.props.expandedDetails) {
-                      this.setState({
-                        size: "large"
-                      })
-                    }
-                  }}
-                />
-              ) : null}
               {this.props.language ? (
                 <div
                   className='card-header-language'
@@ -142,6 +128,23 @@ class ProjectCard extends React.Component {
                     : null)}
                 >
                   {details}
+                  {this.props.expandedDetails ? (
+                    <a 
+                      href='javascript:void(0)'
+                      onClick={() => {
+                        if (this.props.expandedDetails) {
+                          this.setState({
+                            size: "large"
+                          })
+                        }
+                      }}
+                      style={{
+                        cursor: 'pointer'
+                      }}
+                    >
+                      Read more...
+                    </a>
+                  ) : null}
                 </ul>
               </div>
             </div>
@@ -159,20 +162,6 @@ class ProjectCard extends React.Component {
           <div className='card-header'>
             <div className='card-title'>{this.props.title}</div>
             <div className='card-header-details'>
-              {this.props.expandedDetails ? (
-                <Button
-                  icon='minus'
-                  size='mini'
-                  style={{ marginRight: "5px" }}
-                  onClick={() => {
-                    if (this.props.expandedDetails) {
-                      this.setState({
-                        size: "normal"
-                      })
-                    }
-                  }}
-                />
-              ) : null}
               {this.props.language ? (
                 <div
                   className='card-header-language'
@@ -195,6 +184,23 @@ class ProjectCard extends React.Component {
                     {this.props.expandedDetails}
                   </div>
                 ) : null}
+                {this.props.expandedDetails ? (
+                    <a 
+                      href='javascript:void(0)'
+                      onClick={() => {
+                        if (this.props.expandedDetails) {
+                          this.setState({
+                            size: "normal"
+                          })
+                        }
+                      }}
+                      style={{
+                        cursor: 'pointer'
+                      }}
+                    >
+                      Show less...
+                    </a>
+                  ) : null}
               </div>
               <div className='normal-text'>
                 {this.props.additionalText ? (

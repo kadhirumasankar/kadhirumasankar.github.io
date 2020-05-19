@@ -51,7 +51,7 @@ export default class PageHeader extends React.Component {
                   @UTAustin
                 </a>
                 .<br />
-                Future intern{" "}
+                Interning{" "}
                 <a
                   href='https://www.sandia.gov/'
                   target='_blank'
