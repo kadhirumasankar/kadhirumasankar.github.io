@@ -64,7 +64,8 @@ export default class About extends React.Component {
                     {" "}
                     /kadhir1999
                   </a>
-                ]
+                ],
+                [<Icon name='snapchat ghost' circular />, "kadhirus99"]
               ]}
               noBullets={true}
             />
@@ -90,10 +91,10 @@ export default class About extends React.Component {
                 [
                   <Icon name='linkedin' circular />,
                   <a
-                    href='https://www.linkedin.com/in/kadhirus99/'
+                  href='https://www.linkedin.com/in/kadhirus99/'
                     target='_blank'
                     rel='noopener noreferrer'
-                  >
+                    >
                     {" "}
                     /in/kadhirus99/
                   </a>
@@ -101,14 +102,16 @@ export default class About extends React.Component {
                 [
                   <Icon name='facebook' circular />,
                   <a
-                    href='https://www.facebook.com/kadhir1999'
-                    target='_blank'
-                    rel='noopener noreferrer'
+                  href='https://www.facebook.com/kadhir1999'
+                  target='_blank'
+                  rel='noopener noreferrer'
                   >
                     {" "}
                     /kadhir1999
                   </a>
-                ]
+                ],
+                [<Icon name='instagram' circular />, " _kadhir"],
+                [<Icon name='snapchat ghost' circular />, " kadhirus99"]
               ]}
               noBullets={true}
             />
