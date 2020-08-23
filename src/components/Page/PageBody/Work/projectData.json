@@ -119,5 +119,32 @@
       "Flight Dynamics",
       "Foundations of Marketing"
     ]
+  },
+  {
+    "key": 9,
+    "size": "normal",
+    "title": "SAR ATR Intern",
+    "date": "May 2020 - August 2020",
+    "language": ["Internship","#374457"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Sandia_National_Laboratories_logo.svg/1200px-Sandia_National_Laboratories_logo.svg.png",
+    "details": [
+      "Was made part of the Synthetic Aperture Radar Automatic Target Recognition team to increase my knowledge of Convolutional Neural Networks and proficiency with Python",
+      "Added functionality to Python code that was used to analyze the performance of templates on SAR chips. Refactored more than 1,100 lines of code",
+      "Wrote functions that would randomly obscure parts of the target’s mask on SAR chips to help with data augmentation"
+    ]
+  },
+  {
+    "key": 10,
+    "size": "normal",
+    "title": "Autonomy for Hypersonics - Robotarium Team Intern",
+    "date": "May 2020 - *",
+    "language": ["Internship","#374457"],
+    "imageUrl": "https://i.imgur.com/b4bzlMW.png",
+    "details": [
+      "Was assigned to the “Object Tracking” design reference mission. Created a drone_vision Robot Operation System (ROS) package which implemented computer vision on a drone with an Intel RealSense depth camera",
+      "Wrote Python code to use YOLOv4 (You Only Look Once object detection system) on the Red-Green-Blue image from the camera to find objects of interest, find the centroid of the object, superimpose the centroid on the depth image, and use the data to find the vector to the object in the inertial frame",
+      "Gained experience with ROS, Gazebo 3D simulation environment, YOLO (and object detection and deep learning as a whole)",
+      "Currently contributing to the controls team. Also learning Reinforcement Learning concepts to contribute to RL work in the Fall"
+    ]
   }
 ]
