@@ -136,12 +136,12 @@
   {
     "key": 10,
     "size": "normal",
-    "title": "Autonomy for Hypersonics - Robotarium Team Intern",
+    "title": "Autonomy for Hypersonics - Robotarium Intern",
     "date": "May 2020 - *",
     "language": ["Internship","#374457"],
     "imageUrl": "https://i.imgur.com/b4bzlMW.png",
     "details": [
-      "Was assigned to the “Object Tracking” design reference mission. Created a drone_vision Robot Operation System (ROS) package which implemented computer vision on a drone with an Intel RealSense depth camera",
+      "Was assigned to the “Object Tracking” design reference mission. Created a 'drone_vision' Robot Operation System (ROS) package which implemented computer vision on a drone with an Intel RealSense depth camera",
       "Wrote Python code to use YOLOv4 (You Only Look Once object detection system) on the Red-Green-Blue image from the camera to find objects of interest, find the centroid of the object, superimpose the centroid on the depth image, and use the data to find the vector to the object in the inertial frame",
       "Gained experience with ROS, Gazebo 3D simulation environment, YOLO (and object detection and deep learning as a whole)",
       "Currently contributing to the controls team. Also learning Reinforcement Learning concepts to contribute to RL work in the Fall"
