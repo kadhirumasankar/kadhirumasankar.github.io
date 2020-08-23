@@ -10,22 +10,19 @@ export default class About extends React.Component {
     const aboutText = (
       <div>
         <p>
-          I’m currently a third-year Aerospace Engineering Honors student at the{" "}
+          I’m currently a fourth-year Aerospace Engineering Honors student at the{" "}
           <span style={{ color: "#bb5826" }}>
             University of Texas at Austin
           </span>
-          , and I will also be minoring in Business. My interest in photography
-          and videography, as well as my love for the planet and nature, has
-          driven me to concentrate on satellites and autonomy within Aerospace
-          Engineering. I'm happy to share that I will be interning with the
-          Austonomy New Mexico team at{" "}
-          <span style={{ color: "#00add0" }}>Sandia National Labs</span> this
-          summer.
+          , and I will also be minoring in Business. My interest in photography and videography, as well as my fascination with human behavior, has
+          driven me to concentrate on artificial intelligence Aerospace
+          Engineering. I am currently an intern on the Robotarium team of the Autonomy for Hypersonics group at{" "}
+          <span style={{ color: "#00add0" }}>Sandia National Labs</span>.
         </p>
         <p>
           I made my first website from scratch when I was 9, and I’ve been
           building on web development skills ever since. I’m also interested in
-          computer vision and machine learning, so you should be seeing some
+          machine learning / deep learning / reinforcement learning applications in Aerospace, so you should be seeing some
           more projects related to that in my Work section soon.
         </p>
         <p>
