@@ -1,6 +1,6 @@
 import React from "react"
 import "./ProjectCard.css"
-import { Icon, Button } from "semantic-ui-react"
+import { Icon } from "semantic-ui-react"
 
 class ProjectCard extends React.Component {
   state = {
