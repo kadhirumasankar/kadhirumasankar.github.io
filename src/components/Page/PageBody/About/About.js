@@ -65,7 +65,17 @@ export default class About extends React.Component {
                     /kadhir1999
                   </a>
                 ],
-                [<Icon name='snapchat ghost' circular />, "kadhirus99"]
+                [<Icon name='instagram' circular />,
+                  <a
+                    href='https://www.instagram.com/_kadhir/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    {" "}
+                    _kadhir
+                  </a>
+                ],
+                [<Icon name='snapchat ghost' circular />, " kadhirus99"]
               ]}
               noBullets={true}
             />
@@ -110,7 +120,16 @@ export default class About extends React.Component {
                     /kadhir1999
                   </a>
                 ],
-                [<Icon name='instagram' circular />, " _kadhir"],
+                [<Icon name='instagram' circular />,
+                  <a
+                    href='https://www.instagram.com/_kadhir/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    {" "}
+                    _kadhir
+                  </a>
+                ],
                 [<Icon name='snapchat ghost' circular />, " kadhirus99"]
               ]}
               noBullets={true}
