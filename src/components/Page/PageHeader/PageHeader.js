@@ -14,15 +14,14 @@ export default class PageHeader extends React.Component {
     this.handleClick = this.handleClick.bind(this)
   }
 
-  // componentDidMount(){
-  //   console.log(this.state.clickCount)
-  // }
-
   handleClick = () => {
     this.setState(prevState => {
       return { clickCount: prevState.clickCount + 1 }
     })
-    console.log(this.state.clickCount)
+    console.log("You've clicked "+this.state.clickCount+" times")
+    if (this.state.clickCount === 12) {
+      console.log("A throwback to \"Kadhir's Wonderful Website\", the first website I made!")
+    }
   }
 
   render() {
