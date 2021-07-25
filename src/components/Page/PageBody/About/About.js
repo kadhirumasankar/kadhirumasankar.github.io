@@ -1,142 +1,159 @@
-import React from "react"
-import "./About.css"
-import "../../PageHeader/PageHeader.css"
-import img1 from "./img1.png"
-import ProjectCard from "../Work/ProjectCard/ProjectCard"
-import { Icon, Divider } from "semantic-ui-react"
+import React from "react";
+import "./About.css";
+import "../../PageHeader/PageHeader.css";
+import img1 from "./img1.png";
+import ProjectCard from "../Work/ProjectCard/ProjectCard";
+import { Icon, Divider } from "semantic-ui-react";
 
 export default class About extends React.Component {
   render() {
     const aboutText = (
       <div>
         <p>
-          I’m currently a fourth-year Aerospace Engineering Honors student at the{" "}
+          I’m currently an incoming first-year Aerospace Engineering Master's
+          student at the{" "}
+          <span style={{ color: "#B3A369" }}>
+            Georgia Institute of Technology
+          </span>
+          . I graduated with my Bachelor of Science degree in Aerospace
+          Engineering with honors from{" "}
           <span style={{ color: "#bb5826" }}>
             University of Texas at Austin
           </span>
-          , and I will also be minoring in Business. My interest in photography and videography, as well as my fascination with human behavior, has
-          driven me to concentrate on artificial intelligence Aerospace
-          Engineering. I am currently an intern on the Robotarium team of the Autonomy for Hypersonics group at{" "}
-          <span style={{ color: "#00add0" }}>Sandia National Labs</span>.
+          , along with a minor in Business and a certificate in Computational
+          Science.
+        </p>
+        <p>
+          My interest in photography and videography, as well as my fascination
+          with human behavior, initially drove me to work with object detection
+          and recognition through deep learning. Through personal projects, work
+          for student organizations, and work for the Autonomy for Hypersonics
+          Drone Lab at{" "}
+          <span style={{ color: "#00add0" }}>Sandia National Labs</span>, I have
+          gained more experience with Python, C++, implementing machine learning
+          algorithms, and controls. I will soon be contributing to reinforcement
+          learning aplications in aerospace as well.
         </p>
         <p>
           I made my first website from scratch when I was 9, and I’ve been
           building on web development skills ever since. I’m also interested in
-          machine learning / deep learning / reinforcement learning applications in Aerospace, so you should be seeing some
-          more projects related to that in my Work section soon.
+          reinforcement learning applications in Aerospace, so you should be
+          seeing some more projects related to that in my Work section soon.
         </p>
         <p>
-          If you’d like to chat with me, feel free to email me at{" "}
-          <span style={{ color: "#374457" }}>kadhirus99@gmail.com</span>.
+          If you’d like to chat with me, feel free to contact me through one of
+          the channels below.
         </p>
       </div>
-    )
+    );
     if (this.props.isMobile) {
       return (
-        <div id='about-container'>
-          <div className='about-title'>About Me</div>
-          <div className='about-content'>
-            <div className='about-table'>{aboutText}</div>
+        <div id="about-container">
+          <div className="about-title">About Me</div>
+          <div className="about-content">
+            <div className="about-table">{aboutText}</div>
             <ProjectCard
-              title='Contact Information'
-              size='normal'
-              date='Get in touch with me'
+              title="Contact Information"
+              size="normal"
+              date="Get in touch with me"
               details={[
-                [<Icon name='mail' circular />, " kadhirus99@gmail.com"],
+                [<Icon name="mail" circular />, " kadhirus99@gmail.com"],
                 [
-                  <Icon name='linkedin' circular />,
+                  <Icon name="linkedin" circular />,
                   <a
-                    href='https://www.linkedin.com/in/kadhirus99/'
-                    target='_blank'
-                    rel='noopener noreferrer'
+                    href="https://www.linkedin.com/in/kadhirus99/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {" "}
                     /in/kadhirus99/
-                  </a>
+                  </a>,
                 ],
                 [
-                  <Icon name='facebook' circular />,
+                  <Icon name="facebook" circular />,
                   <a
-                    href='https://www.facebook.com/kadhir1999'
-                    target='_blank'
-                    rel='noopener noreferrer'
+                    href="https://www.facebook.com/kadhir1999"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {" "}
                     /kadhir1999
-                  </a>
+                  </a>,
                 ],
-                [<Icon name='instagram' circular />,
+                [
+                  <Icon name="instagram" circular />,
                   <a
-                    href='https://www.instagram.com/_kadhir/'
-                    target='_blank'
-                    rel='noopener noreferrer'
+                    href="https://www.instagram.com/_kadhir/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {" "}
                     _kadhir
-                  </a>
+                  </a>,
                 ],
-                [<Icon name='snapchat ghost' circular />, " kadhirus99"]
+                [<Icon name="snapchat ghost" circular />, " kadhirus99"],
               ]}
               noBullets={true}
             />
           </div>
           <Divider />
         </div>
-      )
+      );
     } else {
       return (
-        <div id='about-container'>
-          <div className='about-title'>About Me</div>
-          <div className='about-content'>
-            <div className='about-table'>
+        <div id="about-container">
+          <div className="about-title">About Me</div>
+          <div className="about-content">
+            <div className="about-table">
               <div style={{ paddingRight: "5em" }}>{aboutText}</div>
-              <img id='header-image' src={img1} alt='Kadhir Umasankar'/> <br />
+              <img id="header-image" src={img1} alt="Kadhir Umasankar" /> <br />
             </div>
             <ProjectCard
-              title='Contact Information'
-              size='normal'
-              date='Get in touch with me'
+              title="Contact Information"
+              size="normal"
+              date="Get in touch with me"
               details={[
-                [<Icon name='mail' circular />, " kadhirus99@gmail.com"],
+                [<Icon name="mail" circular />, " kadhirus99@gmail.com"],
                 [
-                  <Icon name='linkedin' circular />,
+                  <Icon name="linkedin" circular />,
                   <a
-                  href='https://www.linkedin.com/in/kadhirus99/'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    >
+                    href="https://www.linkedin.com/in/kadhirus99/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     {" "}
                     /in/kadhirus99/
-                  </a>
+                  </a>,
                 ],
                 [
-                  <Icon name='facebook' circular />,
+                  <Icon name="facebook" circular />,
                   <a
-                  href='https://www.facebook.com/kadhir1999'
-                  target='_blank'
-                  rel='noopener noreferrer'
+                    href="https://www.facebook.com/kadhir1999"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {" "}
                     /kadhir1999
-                  </a>
+                  </a>,
                 ],
-                [<Icon name='instagram' circular />,
+                [
+                  <Icon name="instagram" circular />,
                   <a
-                    href='https://www.instagram.com/_kadhir/'
-                    target='_blank'
-                    rel='noopener noreferrer'
+                    href="https://www.instagram.com/_kadhir/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {" "}
                     _kadhir
-                  </a>
+                  </a>,
                 ],
-                [<Icon name='snapchat ghost' circular />, " kadhirus99"]
+                [<Icon name="snapchat ghost" circular />, " kadhirus99"],
               ]}
               noBullets={true}
             />
           </div>
         </div>
-      )
+      );
     }
   }
 }
