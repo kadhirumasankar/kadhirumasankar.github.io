@@ -1,7 +1,7 @@
 .card {
   display: grid;
   background-color: white;
-  grid-template: 2.85rem 1.15rem 1fr / 1fr;
+  grid-template: auto 1.15rem 1fr / 1fr;
   width: 50%;
   margin: 1.5rem 0;
   padding: 1rem;
@@ -73,7 +73,8 @@
   display: inline;
   font-weight: bold;
   color: #374457;
-  font-size: 2rem; }
+  font-size: 2rem;
+  line-height: normal; }
 
 .card-header-language {
   display: inline-flex;
