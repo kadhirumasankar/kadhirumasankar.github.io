@@ -2,7 +2,7 @@ import React from "react";
 import "./PageHeader.css";
 import { Icon } from "semantic-ui-react";
 import { Route } from "react-router-dom";
-import profilePicture from "./ProfilePicture.png";
+import profilePicture from "./img1.png";
 import kwwPicture from "./kwwPicture.png";
 
 export default class PageHeader extends React.Component {
