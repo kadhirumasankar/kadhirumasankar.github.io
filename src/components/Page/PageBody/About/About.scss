@@ -17,8 +17,8 @@
   text-align: center;
   font-weight: bold;
   color: #374457;
-  font-size: 3em;
-  padding: .35em;
+  font-size: 3rem;
+  padding: .35rem;
   font-family: Roboto, sans-serif;
 }
 
@@ -28,8 +28,8 @@
   align-items: center;
 
   p{
-    line-height: 1.5em;
-    font-size: 1.5em;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
     text-align: left;
   }
 
@@ -53,12 +53,12 @@
     min-height: 0;
   }
   .about-title{
-    font-size: 2em;
+    font-size: 2rem;
   }
 
   .about-content{
     // margin-right: 10%;
-    font-size: .75em;
+    font-size: .75rem;
     .about-table{
       flex-direction: column;
     }
