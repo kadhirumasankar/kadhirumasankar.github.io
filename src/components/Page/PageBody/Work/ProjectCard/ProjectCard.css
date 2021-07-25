@@ -1,7 +1,7 @@
 .card {
   display: grid;
   background-color: white;
-  grid-template: auto 1.15rem 1fr / 1fr;
+  grid-template: auto 1.15rem 1fr/1fr;
   width: 50%;
   margin: 1.5rem 0;
   padding: 1rem;
@@ -191,7 +191,6 @@ img {
 
   .card-title {
     font-size: 135%;
-    width: 75%;
   }
 
   .card-date {
