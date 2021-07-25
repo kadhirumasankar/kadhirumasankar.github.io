@@ -1,72 +1,76 @@
-import React from "react"
-import "./ProjectCard.css"
-import { Icon } from "semantic-ui-react"
+import React from "react";
+import "./ProjectCard.css";
+import { Icon } from "semantic-ui-react";
 
 class ProjectCard extends React.Component {
   state = {
     isExpanded: false,
-    size: this.props.size
-  }
+    size: this.props.size,
+  };
 
   render() {
-    const detailsList = this.props.details
-    let details = []
+    const detailsList = this.props.details;
+    let details = [];
     if (detailsList) {
       details = detailsList.map((detail, i) => {
-        return <li key={i}>{detail}</li>
-      })
+        return <li key={i}>{detail}</li>;
+      });
     }
-    let languageBackgroundColor = ""
+    let languageBackgroundColor = "";
     if (this.props.language) {
-      languageBackgroundColor = this.props.language[1]
+      languageBackgroundColor = this.props.language[1];
     }
-    let githubUrl = ""
+    let githubUrl = "";
     if (this.props.githubUrl) {
       if (this.props.githubUrl === "private") {
         githubUrl = (
           <a
-            title='The code for this project is in a private repository'
-            className='card-buttons'
+            title="The code for this project is in a private repository"
+            className="card-buttons"
             href={this.props.githubUrl}
-            target='_blank'
-            rel='noopener noreferrer'
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <Icon disabled name='github' size='big' />
+            <Icon disabled name="github" size="big" />
           </a>
-        )
+        );
       } else {
         githubUrl = (
           <a
-            className='card-buttons'
+            className="card-buttons"
             href={this.props.githubUrl}
-            target='_blank'
-            rel='noopener noreferrer'
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <Icon name='github' size='big' />
+            <Icon name="github" size="big" />
           </a>
-        )
+        );
       }
     } else {
-      githubUrl = null
+      githubUrl = null;
     }
 
     if (this.state.size === "small") {
       return (
-        <div className='card small'>
-          <div className='card-header'>
-            <div className='card-title'>{this.props.title}</div>
-            <div className='card-header-details'>
+        <div className="card small">
+          <div className="card-header">
+            <div className="card-title">
+              <span style={{ fontSize: this.props.titleSize }}>
+                {this.props.title}
+              </span>
+            </div>
+            <div className="card-header-details">
               <div
-                className='card-header-language'
+                className="card-header-language"
                 style={{ backgroundColor: languageBackgroundColor }}
               >
                 {this.props.language[0]}
               </div>
             </div>
           </div>
-          <div className='card-date'>{this.props.date}</div>
-          <div className='card-content'>
-            <div className='card-details'>
+          <div className="card-date">{this.props.date}</div>
+          <div className="card-content">
+            <div className="card-details">
               {this.props.additionalText ? (
                 <div style={{ marginTop: "1em" }}>
                   {this.props.additionalText}
@@ -74,21 +78,25 @@ class ProjectCard extends React.Component {
               ) : null}
               <ul>{details}</ul>
             </div>
-            <div className='image-container'>
+            <div className="image-container">
               <img src={this.props.imageUrl} alt={this.props.title} />
             </div>
           </div>
         </div>
-      )
+      );
     } else if (this.state.size === "normal") {
       return (
-        <div className='card'>
-          <div className='card-header'>
-            <div className='card-title'>{this.props.title}</div>
-            <div className='card-header-details'>
+        <div className="card">
+          <div className="card-header">
+            <div className="card-title">
+              <span style={{ fontSize: this.props.titleSize }}>
+                {this.props.title}
+              </span>
+            </div>
+            <div className="card-header-details">
               {this.props.language ? (
                 <div
-                  className='card-header-language'
+                  className="card-header-language"
                   style={{ backgroundColor: languageBackgroundColor }}
                 >
                   {this.props.language[0]}
@@ -98,18 +106,18 @@ class ProjectCard extends React.Component {
             </div>
           </div>
           {this.props.date ? (
-            <div className='card-date'>{this.props.date}</div>
+            <div className="card-date">{this.props.date}</div>
           ) : null}
-          <div className='card-content'>
-            <div className='card-details'>
-              <div className='expanded-text'>
+          <div className="card-content">
+            <div className="card-details">
+              <div className="expanded-text">
                 {this.props.expandedDetails ? (
                   <div style={{ marginTop: "1em" }}>
                     {this.props.expandedDetails}
                   </div>
                 ) : null}
               </div>
-              <div className='normal-text'>
+              <div className="normal-text">
                 {this.props.additionalText ? (
                   <div style={{ marginTop: "1em" }}>
                     {this.props.additionalText}
@@ -122,24 +130,24 @@ class ProjectCard extends React.Component {
                           listStyleType: "none",
                           paddingLeft: 0,
                           marginLeft: 0,
-                          lineHeight: "250%"
-                        }
+                          lineHeight: "250%",
+                        },
                       }
                     : null)}
                 >
                   {details}
                   {this.props.expandedDetails ? (
-                    <a 
-                      href='javascript:void(0)'
+                    <a
+                      href="javascript:void(0)"
                       onClick={() => {
                         if (this.props.expandedDetails) {
                           this.setState({
-                            size: "large"
-                          })
+                            size: "large",
+                          });
                         }
                       }}
                       style={{
-                        cursor: 'pointer'
+                        cursor: "pointer",
                       }}
                     >
                       Read more...
@@ -149,22 +157,26 @@ class ProjectCard extends React.Component {
               </div>
             </div>
             {this.props.imageUrl ? (
-              <div className='image-container'>
+              <div className="image-container">
                 <img src={this.props.imageUrl} alt={this.props.title} />
               </div>
             ) : null}
           </div>
         </div>
-      )
+      );
     } else if (this.state.size === "large") {
       return (
-        <div className='card large'>
-          <div className='card-header'>
-            <div className='card-title'>{this.props.title}</div>
-            <div className='card-header-details'>
+        <div className="card large">
+          <div className="card-header">
+            <div className="card-title">
+              <span style={{ fontSize: this.props.titleSize }}>
+                {this.props.title}
+              </span>
+            </div>
+            <div className="card-header-details">
               {this.props.language ? (
                 <div
-                  className='card-header-language'
+                  className="card-header-language"
                   style={{ backgroundColor: languageBackgroundColor }}
                 >
                   {this.props.language[0]}
@@ -174,35 +186,35 @@ class ProjectCard extends React.Component {
             </div>
           </div>
           {this.props.date ? (
-            <div className='card-date'>{this.props.date}</div>
+            <div className="card-date">{this.props.date}</div>
           ) : null}
-          <div className='card-content'>
-            <div className='card-details'>
-              <div className='expanded-text'>
+          <div className="card-content">
+            <div className="card-details">
+              <div className="expanded-text">
                 {this.props.expandedDetails ? (
                   <div style={{ marginTop: "1em" }}>
                     {this.props.expandedDetails}
                   </div>
                 ) : null}
                 {this.props.expandedDetails ? (
-                    <a 
-                      href='javascript:void(0)'
-                      onClick={() => {
-                        if (this.props.expandedDetails) {
-                          this.setState({
-                            size: "normal"
-                          })
-                        }
-                      }}
-                      style={{
-                        cursor: 'pointer'
-                      }}
-                    >
-                      Show less...
-                    </a>
-                  ) : null}
+                  <a
+                    href="javascript:void(0)"
+                    onClick={() => {
+                      if (this.props.expandedDetails) {
+                        this.setState({
+                          size: "normal",
+                        });
+                      }
+                    }}
+                    style={{
+                      cursor: "pointer",
+                    }}
+                  >
+                    Show less...
+                  </a>
+                ) : null}
               </div>
-              <div className='normal-text'>
+              <div className="normal-text">
                 {this.props.additionalText ? (
                   <div style={{ marginTop: "1em" }}>
                     {this.props.additionalText}
@@ -215,8 +227,8 @@ class ProjectCard extends React.Component {
                           listStyleType: "none",
                           paddingLeft: 0,
                           marginLeft: 0,
-                          lineHeight: "250%"
-                        }
+                          lineHeight: "250%",
+                        },
                       }
                     : null)}
                 >
@@ -225,15 +237,15 @@ class ProjectCard extends React.Component {
               </div>
             </div>
             {this.props.imageUrl ? (
-              <div className='image-container'>
+              <div className="image-container">
                 <img src={this.props.imageUrl} alt={this.props.title} />
               </div>
             ) : null}
           </div>
         </div>
-      )
+      );
     }
   }
 }
 
-export default ProjectCard
+export default ProjectCard;
