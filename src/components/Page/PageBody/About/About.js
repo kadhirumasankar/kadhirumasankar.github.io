@@ -106,7 +106,7 @@ export default class About extends React.Component {
           <div className="about-content">
             <div className="about-table">
               <div style={{ paddingRight: "5em" }}>{aboutText}</div>
-              <img id="header-image" src={img1} alt="Kadhir Umasankar" /> <br />
+              <img id="about-image" src={img1} alt="Kadhir Umasankar" /> <br />
             </div>
             <ProjectCard
               title="Contact Information"
