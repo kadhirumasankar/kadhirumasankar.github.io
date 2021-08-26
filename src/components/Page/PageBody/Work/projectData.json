@@ -177,7 +177,7 @@
     "title": "Autonomy for Hypersonics - LQR Controller",
     "date": "October 2020 - *",
     "language": ["Sandia", "#26abe2"],
-    "imageUrl": "https://autonomy.sandia.gov/_assets/images/autonomy_logo.png",
+    "imageUrl": "https://404warehouse.files.wordpress.com/2016/07/screenshot-from-2016-01-15-140010.png?w=700",
     "details": [
       "Creating a ROS (Robot Operation System) package to implement a Linear Quadratic Regulator controller on a drone",
       "After getting the package to work on a quadcopter in simulation, I am currently working on implementing this on a physical hexacopter",
