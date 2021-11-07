@@ -32,7 +32,7 @@ export default class About extends React.Component {
           <span style={{ color: "#00add0" }}>Sandia National Labs</span>, I have
           gained more experience with Python, C++, implementing machine learning
           algorithms, and controls. I will soon be contributing to reinforcement
-          learning aplications in aerospace as well.
+          learning applications in aerospace as well.
         </p>
         <p>
           I made my first website from scratch when I was 9, and I’ve been
@@ -69,29 +69,6 @@ export default class About extends React.Component {
                     /in/kadhirus99/
                   </a>,
                 ],
-                [
-                  <Icon name="facebook" circular />,
-                  <a
-                    href="https://www.facebook.com/kadhir1999"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    /kadhir1999
-                  </a>,
-                ],
-                [
-                  <Icon name="instagram" circular />,
-                  <a
-                    href="https://www.instagram.com/_kadhir/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    _kadhir
-                  </a>,
-                ],
-                [<Icon name="snapchat ghost" circular />, " kadhirus99"],
               ]}
               noBullets={true}
             />
@@ -125,29 +102,6 @@ export default class About extends React.Component {
                     /in/kadhirus99/
                   </a>,
                 ],
-                [
-                  <Icon name="facebook" circular />,
-                  <a
-                    href="https://www.facebook.com/kadhir1999"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    /kadhir1999
-                  </a>,
-                ],
-                [
-                  <Icon name="instagram" circular />,
-                  <a
-                    href="https://www.instagram.com/_kadhir/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    _kadhir
-                  </a>,
-                ],
-                [<Icon name="snapchat ghost" circular />, " kadhirus99"],
               ]}
               noBullets={true}
             />
