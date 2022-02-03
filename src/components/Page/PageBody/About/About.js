@@ -57,7 +57,7 @@ export default class About extends React.Component {
               size="normal"
               date="Get in touch with me"
               details={[
-                [<Icon name="mail" circular />, " kadhirus99@gmail.com"],
+                [<Icon name="mail" circular />, " kadhir.umasankar@gmail.com"],
                 [
                   <Icon name="linkedin" circular />,
                   <a
@@ -90,7 +90,7 @@ export default class About extends React.Component {
               size="normal"
               date="Get in touch with me"
               details={[
-                [<Icon name="mail" circular />, " kadhirus99@gmail.com"],
+                [<Icon name="mail" circular />, " kadhir.umasankar@gmail.com"],
                 [
                   <Icon name="linkedin" circular />,
                   <a

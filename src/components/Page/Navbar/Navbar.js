@@ -42,12 +42,12 @@ export default class Navbar extends Component {
               My Work
             </NavLink>
           </div>
-          <div className="tooltip" href="mailto:kadhirus99@gmail.com">
-            <a className="navbar-link" href="mailto:kadhirus99@gmail.com">
+          <div className="tooltip" href="mailto:kadhir.umasankar@gmail.com">
+            <a className="navbar-link" href="mailto:kadhir.umasankar@gmail.com">
               <span
                 className="navbar-link"
                 onClick={() => {
-                  navigator.clipboard.writeText("kadhirus99@gmail.com");
+                  navigator.clipboard.writeText("kadhir.umasankar@gmail.com");
                   console.log(this.state.emailCopied);
                   this.setState({ emailCopied: true });
                 }}
@@ -56,7 +56,7 @@ export default class Navbar extends Component {
                 }}
               >
                 <Icon name="mail" circular />
-                kadhirus99@gmail.com
+                kadhir.umasankar@gmail.com
               </span>
               <span className="tooltiptext">Click to send me an email</span>
             </a>
