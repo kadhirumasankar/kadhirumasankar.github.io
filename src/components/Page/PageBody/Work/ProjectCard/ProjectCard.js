@@ -62,7 +62,7 @@ class ProjectCard extends React.Component {
             <div className="card-header-details">
               <div
                 className="card-header-language"
-                style={{ backgroundColor: languageBackgroundColor }}
+                style={{ backgroundColor: languageBackgroundColor, textAlign: "center" }}
               >
                 {this.props.language[0]}
               </div>
@@ -97,7 +97,7 @@ class ProjectCard extends React.Component {
               {this.props.language ? (
                 <div
                   className="card-header-language"
-                  style={{ backgroundColor: languageBackgroundColor }}
+                  style={{ backgroundColor: languageBackgroundColor, textAlign: "center" }}
                 >
                   {this.props.language[0]}
                 </div>
@@ -177,7 +177,7 @@ class ProjectCard extends React.Component {
               {this.props.language ? (
                 <div
                   className="card-header-language"
-                  style={{ backgroundColor: languageBackgroundColor }}
+                  style={{ backgroundColor: languageBackgroundColor, textAlign: "center" }}
                 >
                   {this.props.language[0]}
                 </div>
