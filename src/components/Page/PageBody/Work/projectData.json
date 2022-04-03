@@ -118,7 +118,7 @@
     "size": "normal",
     "title": "Autonomous Sensing & Perception - Synthetic Aperture Radar Automatic Target Recognition",
     "date": "May 2020 - August 2020",
-    "language": ["Sandia", "#26abe2"],
+    "language": ["Sandia National Labs", "#26abe2"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Sandia_National_Laboratories_logo.svg/1200px-Sandia_National_Laboratories_logo.svg.png",
     "details": [
       "Wrote code for model analysis and data augmentation for Synthetic Aperture Radar Automatic Target Recognition",
@@ -131,7 +131,7 @@
     "size": "normal",
     "title": "Autonomy for Hypersonics - Object Tracking",
     "date": "May 2020 - August 2020",
-    "language": ["Sandia", "#26abe2"],
+    "language": ["Sandia National Labs", "#26abe2"],
     "imageUrl": "https://i.imgur.com/b4bzlMW.png",
     "details": [
       "Created a ROS (Robot Operation System) package locate and return the coordinates of objects of interest using a depth camera and YOLOv4 (You Only Look Once object detection system)",
@@ -175,13 +175,41 @@
     "key": 12,
     "size": "small",
     "title": "Autonomy for Hypersonics - LQR Controller",
-    "date": "October 2020 - *",
-    "language": ["Sandia", "#26abe2"],
+    "date": "October 2020 - August 2021",
+    "language": ["Sandia National Labs", "#26abe2"],
     "imageUrl": "https://404warehouse.files.wordpress.com/2016/07/screenshot-from-2016-01-15-140010.png?w=700",
     "details": [
       "Creating a ROS (Robot Operation System) package to implement a Linear Quadratic Regulator controller on a drone",
       "After getting the package to work on a quadcopter in simulation, I am currently working on implementing this on a physical hexacopter",
       "Due to information about the project being Official Use Only, further information may be provided by contacting me officially."
+    ]
+  },
+  {
+    "key": 13,
+    "size": "small",
+    "title": "First Year of Graduate School",
+    "date": "Fall 2021 - Present",
+    "language": ["Georgia Tech", "#B3A369"],
+    "imageUrl": "https://brand.gatech.edu/sites/default/files/inline-images/GeorgiaTech_RGB.png",
+    "additionalText": "Classes taken:",
+    "details": [
+      "Random Processes and Kalman Filtering",
+      "Optimal Guidance and Control",
+      "Probability and Statistics",
+      "Topics in Linear Algebra"
+    ]
+  },
+  {
+    "key": 14,
+    "size": "small",
+    "title": "Replay Buffer Implementation in a Multi-agent Heterogeneous Environment",
+    "date": "September 2021 - Present",
+    "language": ["Research", "#6c757d"],
+    "imageUrl": "http://sites.gatech.edu/mcg-lab/wp-content/uploads/sites/958/2019/01/CORE_robotics_full_text.png",
+    "details": [
+      "Working as part of the Georgia Tech Cognitive Optimization and Relational (CORE) Robotics Lab to implement a replay buffer to train a multi-agent heterogeneous environment",
+      "Researched pros and cons of using off-policy algorithms instead of on-policy algorithms",
+      "Learning extensively about reinforcement learning algorithms, experience sampling, and tuning practices. Gaining experience with Python (specifically the PyTorch package), GitHub, working on remote machines"
     ]
   }
 ]

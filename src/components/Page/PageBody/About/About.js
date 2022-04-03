@@ -10,7 +10,7 @@ export default class About extends React.Component {
     const aboutText = (
       <div>
         <p>
-          I’m currently an incoming first-year Aerospace Engineering Master's
+          I’m currently a first-year Aerospace Engineering Master's
           student at the{" "}
           <span style={{ color: "#B3A369" }}>
             Georgia Institute of Technology
@@ -24,21 +24,16 @@ export default class About extends React.Component {
           Science.
         </p>
         <p>
-          My interest in photography and videography, as well as my fascination
-          with human behavior, initially drove me to work with object detection
-          and recognition through deep learning. Through personal projects, work
-          for student organizations, and work for the Autonomy for Hypersonics
+          My interests are in autonomous GNC, robotics, and artificial intelligence applications in aerospace. As you can see in the "My Work" section, all of the work I've done in the past builds on these interests in some way. Through personal projects, work
+          for student organizations, work for the Autonomy for Hypersonics
           Drone Lab at{" "}
-          <span style={{ color: "#00add0" }}>Sandia National Labs</span>, I have
-          gained more experience with Python, C++, implementing machine learning
-          algorithms, and controls. I will soon be contributing to reinforcement
-          learning applications in aerospace as well.
+          <span style={{ color: "#00add0" }}>Sandia National Labs</span>, and research with the <a style={{ color: "#bb5826" }} href="https://oden.utexas.edu/research/centers-and-groups/autonomous-systems-group/">Autonomous Systems Group</a> at UT Austin and the <a style={{ color: "#0384f7" }} href="https://core-robotics.gatech.edu/">CORE Robotics Lab</a> at Georgia Tech, I have
+          gained more experience with Python, C++, MATLAB, ROS, Git, implementing machine learning
+          algorithms, and controls.
         </p>
         <p>
           I made my first website from scratch when I was 9, and I’ve been
-          building on web development skills ever since. I’m also interested in
-          reinforcement learning applications in Aerospace, so you should be
-          seeing some more projects related to that in my Work section soon.
+          building on web development skills ever since, and I built this website from scratch, as a continuation of those interests.
         </p>
         <p>
           If you’d like to chat with me, feel free to contact me through one of
