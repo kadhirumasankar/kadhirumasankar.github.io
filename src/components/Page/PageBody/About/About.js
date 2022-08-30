@@ -10,7 +10,7 @@ export default class About extends React.Component {
     const aboutText = (
       <div>
         <p>
-          I’m currently a first-year Aerospace Engineering Master's
+          I’m currently a second-year Aerospace Engineering Master's
           student at the{" "}
           <span style={{ color: "#B3A369" }}>
             Georgia Institute of Technology
@@ -32,8 +32,8 @@ export default class About extends React.Component {
           algorithms, and controls.
         </p>
         <p>
-          I made my first website from scratch when I was 9, and I’ve been
-          building on web development skills ever since, and I built this website from scratch, as a continuation of those interests.
+          I made my first website when I was 9, and I’ve been
+          building on web development skills ever since, and I built this website from scratch as a continuation of those interests.
         </p>
         <p>
           If you’d like to chat with me, feel free to contact me through one of
