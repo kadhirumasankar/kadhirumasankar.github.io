@@ -43,7 +43,7 @@
     "date": "Spring 2019",
     "language": ["Python", "#fbbd08"],
     "githubUrl": "https://github.com/uavaustin/target-finder/blob/master/target_finder/color_cube.py",
-    "imageUrl": "https://sec.engr.utexas.edu/files/2020/09/uava_logo_two_tone_dark.png",
+    "imageUrl": "https://i.imgur.com/8LpP69B.png",
     "details": [
       "Improved accuracy of the color classification component of our competition plane",
       "Used HSV instead of RBG color model to make a 3-D coordinate system",
@@ -57,7 +57,7 @@
     "title": "This website",
     "date": "Summer 2019",
     "language": ["ReactJS", "#00d8ff"],
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png",
+    "imageUrl": "https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png",
     "githubUrl": "https://github.com/kadhirumasankar/kadhirumasankar.github.io",
     "details": [
       "Made entirely from scratch using ReactJS",
@@ -181,7 +181,7 @@
     "details": [
       "Creating a ROS (Robot Operation System) package to implement a Linear Quadratic Regulator controller on a drone",
       "After getting the package to work on a quadcopter in simulation, I am currently working on implementing this on a physical hexacopter",
-      "Due to information about the project being Official Use Only, further information may be provided by contacting me officially."
+      "Due to information about the project being Official Use Only, further information may be provided by contacting me officially"
     ]
   },
   {
@@ -190,7 +190,7 @@
     "title": "First Year of Graduate School",
     "date": "Fall 2021 - Summer 2022",
     "language": ["Georgia Tech", "#B3A369"],
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Georgia_Tech%27s_Buzz_logo.svg/1200px-Georgia_Tech%27s_Buzz_logo.svg.png",
+    "imageUrl": "https://i.imgur.com/lp6Mn4e.png",
     "additionalText": "Classes taken:",
     "details": [
       "Random Processes and Kalman Filtering",
@@ -216,16 +216,83 @@
   {
     "key": 15,
     "size": "small",
-    "title": "Internship at Sandia National Labs [WIP]",
-    "date": "May 2022 - Present",
+    "title": "Drone Lab - Flight Commander Script",
+    "date": "Summer 2022",
     "language": ["Sandia National Labs", "#26abe2"],
-    "imageUrl": "https://cdn-icons-png.flaticon.com/512/5578/5578703.png",
+    "imageUrl": "https://i.imgur.com/IHDktjH.gif",
     "details": [
-      "This card is currently a work-in-progress since the work I did this summer is currently going through Sandia's Review & Approval process to be cleared for unlimited release"
+      "Script to control the drone using command-line inputs in real-time",
+      "Used argparse to allow the program to accept command-line arguments",
+      "Used threading to simultaneously send commands to the flight computer while accepting user-input"
     ]
   },
   {
     "key": 16,
+    "size": "small",
+    "title": "Drone Lab - 1-€ Filter",
+    "date": "Summer 2022",
+    "language": ["Sandia National Labs", "#26abe2"],
+    "imageUrl": "https://i.imgur.com/Y0fG5vy.jpg",
+    "details": [
+      "Implemented a 1-€ (\"one Euro\") filter on position and attitude data from the Vicon space",
+      "Standard deviation of the filtered position and attitude data was 65.1% less than the unfiltered data’s standard deviation",
+      "Standard deviation of the filtered velocity and attitude rates was 89.9% less than the unfiltered data’s standard deviation"
+    ]
+  },
+  {
+    "key": 17,
+    "size": "small",
+    "title": "Space Control Capabilities - Camera Localization Code",
+    "date": "Summer 2022",
+    "language": ["Sandia National Labs", "#26abe2"],
+    "imageUrl": "https://i.imgur.com/WwFb3eg.gif",
+    "details": [
+      "Performed operations on camera properties to find the unit vectors from the camera to objects on the image plane",
+      "This will allow localization of the camera in 3D space using a 2D image",
+      "The video below shows the camera (red), objects of interest on the image plane (green), and the unit vectors multiplied by the distances to the objects"
+    ]
+  },
+  {
+    "key": 18,
+    "size": "small",
+    "title": "Space Control Capabilities - Moon Obscuration Code",
+    "date": "Summer 2022",
+    "language": ["Sandia National Labs", "#26abe2"],
+    "imageUrl": "https://i.imgur.com/TAi7uNr.jpg",
+    "details": [
+      "Updated simulation code to treat the Moon as an opaque object",
+      "Added code to make objects undetectable by sensors if positioned in the Moon’s shadow or if illuminated by the Sun’s reflection off the Moon",
+      "In the figure here, the green regions of the heatmap can be seen by the satellite, while the red regions cannot, and it shows that objects in the regions behind the Moon, in the Moon’s shadow, and in the region in front of the illuminated portion of the Moon cannot be detected"
+    ]
+  },
+  {
+    "key": 19,
+    "size": "small",
+    "title": "Drone Lab - LQR Neural Network",
+    "date": "Summer 2022",
+    "language": ["Sandia National Labs", "#26abe2"],
+    "imageUrl": "https://i.imgur.com/77e7YIV.gif",
+    "details": [
+      "Implemented a neural network to solve for the K matrix for LQR control",
+      "Much faster than solving the algebraic Riccati equation at every time step, with a measured rate increase in simulation of ~4 times"
+    ]
+  },
+  {
+    "key": 20,
+    "size": "small",
+    "title": "Advanced Flight Vehicle NGC",
+    "date": "Summer 2022 - Present",
+    "language": ["Sandia National Labs", "#26abe2"],
+    "imageUrl": "https://i.imgur.com/ywFStqs.png",
+    "details": [
+      "Used a Monte Carlo framework in MATLAB/Simulink to evaluate the controller effort of a representative atmospheric flight vehicle to compute the amount of gas it would take to control the vehicle. This information was used to size thruster gas tanks",
+      "Sensitivity analyses were done on varying initial conditions to determine the degrees to which different conditions affected controller performance. This enabled the prioritization of the conditions with the greatest effect",
+      "Improved Monte Carlo post processing code by producing plots to convey more relevant metrics for the project",
+      "(Image from defense.gov)"
+    ]
+  },
+  {
+    "key": 21,
     "size": "small",
     "title": "Second Year of Graduate School",
     "date": "Fall 2022 - Present",
