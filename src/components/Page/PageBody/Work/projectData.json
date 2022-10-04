@@ -221,7 +221,7 @@
     "language": ["Sandia National Labs", "#26abe2"],
     "imageUrl": "https://i.imgur.com/IHDktjH.gif",
     "details": [
-      "Script to control the drone using command-line inputs in real-time",
+      "Developed a command-line interface to control our drone in real-time",
       "Used argparse to allow the program to accept command-line arguments",
       "Used threading to simultaneously send commands to the flight computer while accepting user-input"
     ]
@@ -249,7 +249,7 @@
     "details": [
       "Performed operations on camera properties to find the unit vectors from the camera to objects on the image plane",
       "This will allow localization of the camera in 3D space using a 2D image",
-      "The video below shows the camera (red), objects of interest on the image plane (green), and the unit vectors multiplied by the distances to the objects"
+      "The GIF here shows the camera (red), objects of interest on the image plane (green), and the unit vectors multiplied by the distances to the objects"
     ]
   },
   {
@@ -273,21 +273,21 @@
     "language": ["Sandia National Labs", "#26abe2"],
     "imageUrl": "https://i.imgur.com/77e7YIV.gif",
     "details": [
-      "Implemented a neural network to solve for the K matrix for LQR control",
-      "Much faster than solving the algebraic Riccati equation at every time step, with a measured rate increase in simulation of ~4 times"
+      "Implemented a neural network to solve for the optimal gain matrix, K, for linear–quadratic regulator (LQR) control",
+      "The neural network was much faster than solving the algebraic Riccati equation at every time step, with a measured rate increase in simulation of ~4 times"
     ]
   },
   {
     "key": 20,
     "size": "small",
-    "title": "Advanced Flight Vehicle NGC",
+    "title": "Advanced Flight Vehicle Navigation, Guidance & Control",
     "date": "Summer 2022 - Present",
     "language": ["Sandia National Labs", "#26abe2"],
     "imageUrl": "https://i.imgur.com/ywFStqs.png",
     "details": [
-      "Used a Monte Carlo framework in MATLAB/Simulink to evaluate the controller effort of a representative atmospheric flight vehicle to compute the amount of gas it would take to control the vehicle. This information was used to size thruster gas tanks",
+      "Used a Monte Carlo framework in MATLAB/Simulink to evaluate the controller effort of a representative atmospheric flight vehicle and determine the amount of gas it would take to control the vehicle. This information was used to size thruster gas tanks",
       "Sensitivity analyses were done on varying initial conditions to determine the degrees to which different conditions affected controller performance. This enabled the prioritization of the conditions with the greatest effect",
-      "Improved Monte Carlo post processing code by producing plots to convey more relevant metrics for the project",
+      "Improved Monte Carlo post-processing code by producing plots to convey more relevant metrics for the project",
       "(Image from defense.gov)"
     ]
   },
