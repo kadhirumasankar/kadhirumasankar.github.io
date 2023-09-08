@@ -10,24 +10,25 @@ export default class About extends React.Component {
     const aboutText = (
       <div>
         <p>
-          I’m a second-year Aerospace Engineering Master's
-          student at the{" "}
-          <span style={{ color: "#B3A369" }}>
-            Georgia Institute of Technology
-          </span>
-          , planning to graduate in May 2023. I graduated with my Bachelor of Science degree in Aerospace
+          I’m an Autonomous Aerospace Systems Engineer at {" "}
+          <span style={{color: "#0099CC"}}>
+            Sandia National Labs
+          </span> with interests in autonomous guidance, navigation & control (GNC), robotics, and artificial intelligence applications in aerospace. 
+          I graduated with my Bachelor of Science degree in Aerospace
           Engineering with honors from the{" "}
           <span style={{ color: "#bb5826" }}>
             University of Texas at Austin
           </span>
           , along with a minor in Business and a certificate in Computational
-          Science.
+          Science, and my Master's degree in Aerospace Engineering from the {" "}
+          <span style={{ color: "#B3A369" }}>
+            Georgia Institute of Technology
+          </span>.
         </p>
         <p>
-          My interests are in autonomous guidance, navigation & control (GNC), robotics, and artificial intelligence applications in aerospace. As you can see in the "My Work" section, all of the work I've done in the past builds on these interests in some way. Through personal projects, work
+          As you can see in the "My Work" section, all of the work I've done in the past builds on my interests in some way. Through personal projects, work
           for student organizations, work as an intern at <span style={{ color: "#00add0" }}>Sandia National Labs</span>, and research with the <a style={{ color: "#bb5826" }} href="https://oden.utexas.edu/research/centers-and-groups/autonomous-systems-group/">Autonomous Systems Group</a> at UT Austin, the <a style={{ color: "#0384f7" }} href="https://core-robotics.gatech.edu/">CORE Robotics Lab</a>, and the <a style={{ color: "#002060" }} href="https://sites.gatech.edu/dart-lab/">Dynamic Adaptive Robotic Technologies Lab</a> at Georgia Tech, I've
-          gained more experience with Python, C++, MATLAB, Simulink, ROS, Git, implementing machine learning
-          algorithms, and controls.
+          gained more experience with Python, C++, MATLAB, Simulink, ROS, Git, implementing machine learning algorithms, and controls.
         </p>
         <p>
           I made my first website when I was 9, and I’ve been

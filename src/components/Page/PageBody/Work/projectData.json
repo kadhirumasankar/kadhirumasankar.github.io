@@ -115,11 +115,11 @@
   },
   {
     "key": 8,
-    "size": "normal",
+    "size": "small",
     "title": "Autonomous Sensing & Perception - Synthetic Aperture Radar Automatic Target Recognition",
     "date": "May 2020 - August 2020",
     "language": ["Sandia National Labs", "#26abe2"],
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Sandia_National_Laboratories_logo.svg/1200px-Sandia_National_Laboratories_logo.svg.png",
+    "imageUrl": "https://research.gatech.edu/sites/default/files/inline-images/sandia-logos-sandia.png",
     "details": [
       "Wrote code for model analysis and data augmentation for Synthetic Aperture Radar Automatic Target Recognition",
       "Gained experience with Python, specifically 'numpy', 'pandas', and 'matplotlib' packages"
@@ -295,7 +295,7 @@
     "key": 21,
     "size": "small",
     "title": "Second Year of Graduate School",
-    "date": "Fall 2022 - Present",
+    "date": "Fall 2022 - Spring 2023",
     "language": ["Georgia Tech", "#B3A369"],
     "imageUrl": "https://brand.gatech.edu/sites/default/files/inline-images/GeorgiaTech_RGB.png",
     "additionalText": "Classes taken:",
@@ -306,5 +306,14 @@
       "Nonlinear Control Systems",
       "Satellite Orbit Determination"
     ]
+  }, 
+  {
+    "key": 22,
+    "size": "normal",
+    "title": "Autonomous Aerospace Systems Engineer",
+    "date": "August 2023 - Present",
+    "language": ["Sandia National Labs", "#26abe2"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Sandia_National_Laboratories_logo.svg/1200px-Sandia_National_Laboratories_logo.svg.png",
+    "additionalText": "Working on aircraft navigation and control."
   }
 ]

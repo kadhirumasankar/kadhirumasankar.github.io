@@ -42,8 +42,15 @@ export default class PageHeader extends React.Component {
             <div id="text">
               Hi, I&#39;m&nbsp;<b>Kadhir Umasankar</b>.<br />
               <div style={{ fontSize: "90%" }}>
-                Aerospace Engineering Master's student{" "}
+                Learned how to make stuff fly {" "}
                 <a
+                  href="https://www.ae.utexas.edu/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "#BF5700", fontWeight: "bold" }}
+                >
+                  @UTAustin
+                </a> & <a
                   href="https://ae.gatech.edu/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -52,7 +59,7 @@ export default class PageHeader extends React.Component {
                   @GeorgiaTech
                 </a>
                 .<br />
-                Interning{" "}
+                Trying to make stuff fly{" "}
                 <a
                   href="https://www.sandia.gov/"
                   target="_blank"
