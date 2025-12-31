@@ -5,3 +5,5 @@ I made this website to showcase my projects. It has a **My Work** tab where visi
 ![my website](https://i.imgur.com/ig8eKkY.png)
 
 > NOTE: [Github Deployment Instructions](https://medium.com/@amh03160/deploying-a-react-app-on-github-pages-with-a-custom-url-fee94f3be82c)
+
+> TLDR: Push everything to the `source` branch, run `npm run deploy`, then update custom domain [here](https://github.com/kadhirumasankar/kadhirumasankar.github.io/settings/pages).
